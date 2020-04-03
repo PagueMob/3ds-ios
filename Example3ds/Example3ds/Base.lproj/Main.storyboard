@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Example3ds" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Validação 3DS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vHQ-oo-cDt">
+                                <rect key="frame" x="149.5" y="84" width="115.5" height="21"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8PI-ZX-w0Y">
+                                <rect key="frame" x="127" y="205" width="160" height="44"/>
+                                <color key="backgroundColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="160" id="Wwl-2F-GKz"/>
+                                    <constraint firstAttribute="height" constant="44" id="yIW-Ms-4lE"/>
+                                </constraints>
+                                <state key="normal" title="Iniciar autenticação">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="AccessToken: " textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d0i-65-hTK">
+                                <rect key="frame" x="16" y="145" width="109" height="25"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="25" id="K0s-yl-iey"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Resultado " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gkB-pt-PLD">
+                                <rect key="frame" x="20" y="285" width="378" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="lIy-g0-atQ">
+                                <rect key="frame" x="141" y="140.5" width="257" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Vox-XC-lZW">
+                                <rect key="frame" x="20" y="313" width="374" height="529"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="Wtw-7A-4DY">
+                                <rect key="frame" x="188.5" y="257" width="37" height="37"/>
+                                <color key="color" cocoaTouchSystemColor="darkTextColor"/>
+                            </activityIndicatorView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="d0i-65-hTK" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="2n7-mr-dpC"/>
+                            <constraint firstItem="gkB-pt-PLD" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="9Hu-d0-O2n"/>
+                            <constraint firstItem="vHQ-oo-cDt" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Aya-SJ-xq4"/>
+                            <constraint firstItem="8PI-ZX-w0Y" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="E9m-E8-wci"/>
+                            <constraint firstItem="lIy-g0-atQ" firstAttribute="leading" secondItem="d0i-65-hTK" secondAttribute="trailing" constant="16" id="FIt-VW-HYI"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="gkB-pt-PLD" secondAttribute="trailing" constant="16" id="G5A-rT-maw"/>
+                            <constraint firstItem="Wtw-7A-4DY" firstAttribute="top" secondItem="8PI-ZX-w0Y" secondAttribute="bottom" constant="8" id="GIY-6T-tIh"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Vox-XC-lZW" secondAttribute="bottom" constant="20" id="H3Y-ti-SDb"/>
+                            <constraint firstItem="Vox-XC-lZW" firstAttribute="top" secondItem="gkB-pt-PLD" secondAttribute="bottom" constant="7.5" id="N3F-wL-bhq"/>
+                            <constraint firstItem="d0i-65-hTK" firstAttribute="top" secondItem="vHQ-oo-cDt" secondAttribute="bottom" constant="40" id="Rf2-T5-zbn"/>
+                            <constraint firstItem="gkB-pt-PLD" firstAttribute="top" secondItem="8PI-ZX-w0Y" secondAttribute="bottom" constant="36" id="XKR-xM-qgL"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Vox-XC-lZW" secondAttribute="trailing" constant="20" id="d8e-kG-Omj"/>
+                            <constraint firstItem="Vox-XC-lZW" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="fnR-0f-p0q"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="lIy-g0-atQ" secondAttribute="trailing" constant="16" id="gOP-FG-jpL"/>
+                            <constraint firstItem="vHQ-oo-cDt" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="40" id="hyo-Bp-lmz"/>
+                            <constraint firstItem="Wtw-7A-4DY" firstAttribute="centerX" secondItem="8PI-ZX-w0Y" secondAttribute="centerX" id="imA-Cb-k8V"/>
+                            <constraint firstItem="8PI-ZX-w0Y" firstAttribute="top" secondItem="d0i-65-hTK" secondAttribute="bottom" constant="35" id="sia-F8-rkb"/>
+                            <constraint firstItem="lIy-g0-atQ" firstAttribute="centerY" secondItem="d0i-65-hTK" secondAttribute="centerY" id="yzR-op-ZN5"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="btnAuthenticate" destination="8PI-ZX-w0Y" id="U5c-XO-B5g"/>
+                        <outlet property="loading" destination="Wtw-7A-4DY" id="J3c-Ww-hd0"/>
+                        <outlet property="txtAccessToken" destination="lIy-g0-atQ" id="8kr-Lg-9tz"/>
+                        <outlet property="txtResult" destination="Vox-XC-lZW" id="yOk-TH-c1I"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="137.94642857142856"/>
+        </scene>
+    </scenes>
+</document>

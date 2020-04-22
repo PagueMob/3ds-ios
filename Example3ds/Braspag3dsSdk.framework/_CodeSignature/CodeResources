@@ -154,7 +154,7 @@
 		</data>
 		<key>Modules/Braspag3dsSdk.swiftmodule/i386-apple-ios-simulator.swiftmodule</key>
 		<data>
-		j5oQw5Pbu2loeIqXCtubRCLwls4=
+		gZs3Cgk79NQLu9koOYTJn9ul6fE=
 		</data>
 		<key>Modules/Braspag3dsSdk.swiftmodule/i386.swiftdoc</key>
 		<data>
@@ -162,7 +162,7 @@
 		</data>
 		<key>Modules/Braspag3dsSdk.swiftmodule/i386.swiftmodule</key>
 		<data>
-		j5oQw5Pbu2loeIqXCtubRCLwls4=
+		gZs3Cgk79NQLu9koOYTJn9ul6fE=
 		</data>
 		<key>Modules/Braspag3dsSdk.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -170,7 +170,7 @@
 		</data>
 		<key>Modules/Braspag3dsSdk.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		VmGtAjjz5BvFMiSbOd50a9SOJdg=
+		xcb6haAdjjOcx4GUf1pkHrZSR8Q=
 		</data>
 		<key>Modules/Braspag3dsSdk.swiftmodule/x86_64.swiftdoc</key>
 		<data>
@@ -178,7 +178,7 @@
 		</data>
 		<key>Modules/Braspag3dsSdk.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		VmGtAjjz5BvFMiSbOd50a9SOJdg=
+		xcb6haAdjjOcx4GUf1pkHrZSR8Q=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -587,11 +587,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			j5oQw5Pbu2loeIqXCtubRCLwls4=
+			gZs3Cgk79NQLu9koOYTJn9ul6fE=
 			</data>
 			<key>hash2</key>
 			<data>
-			MwLkAnJsO1TODCzU22E/h40inePHCLNK0oKEm2ab4ws=
+			PTZYUsHtKwCKgNZoadf77MdubRI67njPo97YWcctozc=
 			</data>
 		</dict>
 		<key>Modules/Braspag3dsSdk.swiftmodule/i386.swiftdoc</key>
@@ -609,11 +609,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			j5oQw5Pbu2loeIqXCtubRCLwls4=
+			gZs3Cgk79NQLu9koOYTJn9ul6fE=
 			</data>
 			<key>hash2</key>
 			<data>
-			MwLkAnJsO1TODCzU22E/h40inePHCLNK0oKEm2ab4ws=
+			PTZYUsHtKwCKgNZoadf77MdubRI67njPo97YWcctozc=
 			</data>
 		</dict>
 		<key>Modules/Braspag3dsSdk.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -631,11 +631,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			VmGtAjjz5BvFMiSbOd50a9SOJdg=
+			xcb6haAdjjOcx4GUf1pkHrZSR8Q=
 			</data>
 			<key>hash2</key>
 			<data>
-			Zt9bFniszOjlres1QykqXuGskv4I66iNCgmZCIcOlxE=
+			biK8ZSg3FH/Gr+DQ6leCW5oqPsGXgSwjON2YFxmyS7k=
 			</data>
 		</dict>
 		<key>Modules/Braspag3dsSdk.swiftmodule/x86_64.swiftdoc</key>
@@ -653,11 +653,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			VmGtAjjz5BvFMiSbOd50a9SOJdg=
+			xcb6haAdjjOcx4GUf1pkHrZSR8Q=
 			</data>
 			<key>hash2</key>
 			<data>
-			Zt9bFniszOjlres1QykqXuGskv4I66iNCgmZCIcOlxE=
+			biK8ZSg3FH/Gr+DQ6leCW5oqPsGXgSwjON2YFxmyS7k=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

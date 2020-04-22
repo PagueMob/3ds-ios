@@ -122,11 +122,11 @@
 		</data>
 		<key>Headers/Braspag3dsSdk-Swift.h</key>
 		<data>
-		1XSghjBiGY/7qaNwCg512tGRZfA=
+		riaVpCoAdiE6qovpKBTZod8cavo=
 		</data>
 		<key>Headers/Braspag3dsSdk.h</key>
 		<data>
-		DezDDQUE+CCsM8AImgn8vXCLu4A=
+		EajXHH77+UKmgpkCd7S0c5X/moA=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -134,51 +134,51 @@
 		</data>
 		<key>Modules/Braspag3dsSdk.swiftmodule/Project/i386-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		tJrp4FccRCd3tqdA4zOiN/fqSy4=
+		txg65I2dDt65uKbFh6kzEOCo8M4=
 		</data>
 		<key>Modules/Braspag3dsSdk.swiftmodule/Project/i386.swiftsourceinfo</key>
 		<data>
-		tJrp4FccRCd3tqdA4zOiN/fqSy4=
+		txg65I2dDt65uKbFh6kzEOCo8M4=
 		</data>
 		<key>Modules/Braspag3dsSdk.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		JmnwOzi02RCjBGALsLllmYcTqOs=
+		8xd6gWjeMjQ9SosdrIh9E+P+X70=
 		</data>
 		<key>Modules/Braspag3dsSdk.swiftmodule/Project/x86_64.swiftsourceinfo</key>
 		<data>
-		JmnwOzi02RCjBGALsLllmYcTqOs=
+		8xd6gWjeMjQ9SosdrIh9E+P+X70=
 		</data>
 		<key>Modules/Braspag3dsSdk.swiftmodule/i386-apple-ios-simulator.swiftdoc</key>
 		<data>
-		4yvxNAt6c0w7OCfrR64NbdcfAsc=
+		USxcN7oaGPPLyjGpyfUsRjcfxhU=
 		</data>
 		<key>Modules/Braspag3dsSdk.swiftmodule/i386-apple-ios-simulator.swiftmodule</key>
 		<data>
-		A/P4L0Si1fpBic2ghORJJy8g8/Y=
+		j5oQw5Pbu2loeIqXCtubRCLwls4=
 		</data>
 		<key>Modules/Braspag3dsSdk.swiftmodule/i386.swiftdoc</key>
 		<data>
-		4yvxNAt6c0w7OCfrR64NbdcfAsc=
+		USxcN7oaGPPLyjGpyfUsRjcfxhU=
 		</data>
 		<key>Modules/Braspag3dsSdk.swiftmodule/i386.swiftmodule</key>
 		<data>
-		A/P4L0Si1fpBic2ghORJJy8g8/Y=
+		j5oQw5Pbu2loeIqXCtubRCLwls4=
 		</data>
 		<key>Modules/Braspag3dsSdk.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		s1qK6YHXKs6usRl9e8f16uUwvZE=
+		2dRbGV+/aSxH7W7Vkbse03MwX9I=
 		</data>
 		<key>Modules/Braspag3dsSdk.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		xlEvNAw6hULJvqkYvHu+11h3Lng=
+		VmGtAjjz5BvFMiSbOd50a9SOJdg=
 		</data>
 		<key>Modules/Braspag3dsSdk.swiftmodule/x86_64.swiftdoc</key>
 		<data>
-		s1qK6YHXKs6usRl9e8f16uUwvZE=
+		2dRbGV+/aSxH7W7Vkbse03MwX9I=
 		</data>
 		<key>Modules/Braspag3dsSdk.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		xlEvNAw6hULJvqkYvHu+11h3Lng=
+		VmGtAjjz5BvFMiSbOd50a9SOJdg=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -510,154 +510,154 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			1XSghjBiGY/7qaNwCg512tGRZfA=
+			riaVpCoAdiE6qovpKBTZod8cavo=
 			</data>
 			<key>hash2</key>
 			<data>
-			uHDsqP4YN71d4Ge3MY3fcM5NsDVRIMt2tbaF3UCsLHA=
+			qrPbR/5iAhnn8yplS0+BpeNpp0XV+BzKHbA+tqjBdEo=
 			</data>
 		</dict>
 		<key>Headers/Braspag3dsSdk.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			DezDDQUE+CCsM8AImgn8vXCLu4A=
+			EajXHH77+UKmgpkCd7S0c5X/moA=
 			</data>
 			<key>hash2</key>
 			<data>
-			iY32SqGuT2jlau6G9wo1sVejg05ub7xUHgbumD7EPvc=
+			KW7jC7BkDzIThGmkdoowkpkRnr5n4FTVfGEzVDohjFQ=
 			</data>
 		</dict>
 		<key>Modules/Braspag3dsSdk.swiftmodule/Project/i386-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			tJrp4FccRCd3tqdA4zOiN/fqSy4=
+			txg65I2dDt65uKbFh6kzEOCo8M4=
 			</data>
 			<key>hash2</key>
 			<data>
-			bsU7Xfa/SO7YKwNO4zUR2D5qmtlN2iMwhmEu6vUiOZ4=
+			rsZrqytgTFsw7qRNl4sSAsWwXPYRApwfT5dw5MuVyJw=
 			</data>
 		</dict>
 		<key>Modules/Braspag3dsSdk.swiftmodule/Project/i386.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			tJrp4FccRCd3tqdA4zOiN/fqSy4=
+			txg65I2dDt65uKbFh6kzEOCo8M4=
 			</data>
 			<key>hash2</key>
 			<data>
-			bsU7Xfa/SO7YKwNO4zUR2D5qmtlN2iMwhmEu6vUiOZ4=
+			rsZrqytgTFsw7qRNl4sSAsWwXPYRApwfT5dw5MuVyJw=
 			</data>
 		</dict>
 		<key>Modules/Braspag3dsSdk.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			JmnwOzi02RCjBGALsLllmYcTqOs=
+			8xd6gWjeMjQ9SosdrIh9E+P+X70=
 			</data>
 			<key>hash2</key>
 			<data>
-			sQhCG5IzGdjpSxn0WqlHLnT93e6/YIY+rkVEbxyGkKk=
+			W9XM3mhkZ3WC+rZ+BOZ4bd3x0ykrQKShj1UWI3XTwEo=
 			</data>
 		</dict>
 		<key>Modules/Braspag3dsSdk.swiftmodule/Project/x86_64.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			JmnwOzi02RCjBGALsLllmYcTqOs=
+			8xd6gWjeMjQ9SosdrIh9E+P+X70=
 			</data>
 			<key>hash2</key>
 			<data>
-			sQhCG5IzGdjpSxn0WqlHLnT93e6/YIY+rkVEbxyGkKk=
+			W9XM3mhkZ3WC+rZ+BOZ4bd3x0ykrQKShj1UWI3XTwEo=
 			</data>
 		</dict>
 		<key>Modules/Braspag3dsSdk.swiftmodule/i386-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			4yvxNAt6c0w7OCfrR64NbdcfAsc=
+			USxcN7oaGPPLyjGpyfUsRjcfxhU=
 			</data>
 			<key>hash2</key>
 			<data>
-			em04IwkFfjpiezT0j0shyj7EkbGoYx/DMZOmU/th3q0=
+			DRdNlwnLB1lSHDMVfmdMMM2dDT9YK0EfonkMx1IBPck=
 			</data>
 		</dict>
 		<key>Modules/Braspag3dsSdk.swiftmodule/i386-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			A/P4L0Si1fpBic2ghORJJy8g8/Y=
+			j5oQw5Pbu2loeIqXCtubRCLwls4=
 			</data>
 			<key>hash2</key>
 			<data>
-			kkSArtCbtdPHK1m+gKMyNtxjWB35T4GT5DRyPZmP/e4=
+			MwLkAnJsO1TODCzU22E/h40inePHCLNK0oKEm2ab4ws=
 			</data>
 		</dict>
 		<key>Modules/Braspag3dsSdk.swiftmodule/i386.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			4yvxNAt6c0w7OCfrR64NbdcfAsc=
+			USxcN7oaGPPLyjGpyfUsRjcfxhU=
 			</data>
 			<key>hash2</key>
 			<data>
-			em04IwkFfjpiezT0j0shyj7EkbGoYx/DMZOmU/th3q0=
+			DRdNlwnLB1lSHDMVfmdMMM2dDT9YK0EfonkMx1IBPck=
 			</data>
 		</dict>
 		<key>Modules/Braspag3dsSdk.swiftmodule/i386.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			A/P4L0Si1fpBic2ghORJJy8g8/Y=
+			j5oQw5Pbu2loeIqXCtubRCLwls4=
 			</data>
 			<key>hash2</key>
 			<data>
-			kkSArtCbtdPHK1m+gKMyNtxjWB35T4GT5DRyPZmP/e4=
+			MwLkAnJsO1TODCzU22E/h40inePHCLNK0oKEm2ab4ws=
 			</data>
 		</dict>
 		<key>Modules/Braspag3dsSdk.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			s1qK6YHXKs6usRl9e8f16uUwvZE=
+			2dRbGV+/aSxH7W7Vkbse03MwX9I=
 			</data>
 			<key>hash2</key>
 			<data>
-			nFBocP6C+Veq3HLWarYDHmaIhPqSGDX3VsD9qWvlQsc=
+			RyUUOFUJVnRwH1JozSJungpZT8xldpQMPfscOvrxjnw=
 			</data>
 		</dict>
 		<key>Modules/Braspag3dsSdk.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			xlEvNAw6hULJvqkYvHu+11h3Lng=
+			VmGtAjjz5BvFMiSbOd50a9SOJdg=
 			</data>
 			<key>hash2</key>
 			<data>
-			J/RWIAKBPKCw5RkWn1wRyZedzg+G0pidfW3pjBTfaJw=
+			Zt9bFniszOjlres1QykqXuGskv4I66iNCgmZCIcOlxE=
 			</data>
 		</dict>
 		<key>Modules/Braspag3dsSdk.swiftmodule/x86_64.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			s1qK6YHXKs6usRl9e8f16uUwvZE=
+			2dRbGV+/aSxH7W7Vkbse03MwX9I=
 			</data>
 			<key>hash2</key>
 			<data>
-			nFBocP6C+Veq3HLWarYDHmaIhPqSGDX3VsD9qWvlQsc=
+			RyUUOFUJVnRwH1JozSJungpZT8xldpQMPfscOvrxjnw=
 			</data>
 		</dict>
 		<key>Modules/Braspag3dsSdk.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			xlEvNAw6hULJvqkYvHu+11h3Lng=
+			VmGtAjjz5BvFMiSbOd50a9SOJdg=
 			</data>
 			<key>hash2</key>
 			<data>
-			J/RWIAKBPKCw5RkWn1wRyZedzg+G0pidfW3pjBTfaJw=
+			Zt9bFniszOjlres1QykqXuGskv4I66iNCgmZCIcOlxE=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "Braspag3Ds"
-  spec.version      = "1.0.1"
+  spec.version      = "1.0.3"
   spec.summary      = "Biblioteca de validação de cartões de crédito"
 
   spec.description  = <<-DESC
@@ -22,7 +22,7 @@ Pod::Spec.new do |spec|
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   spec.platform     = :ios, "9.0"
 
-  spec.source       = { :git => "https://github.com/DeveloperCielo/3ds-ios.git", :tag => "v#{spec.version}" }
+  spec.source       = { :git => "https://github.com/DeveloperCielo/3ds-ios.git", :tag => "#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #

@@ -53,6 +53,7 @@
 		68B2154E243609ED00EAB32E /* Braspag3ds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B21522243609ED00EAB32E /* Braspag3ds.swift */; };
 		68B2154F243609ED00EAB32E /* DecodableExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B21524243609ED00EAB32E /* DecodableExtensions.swift */; };
 		68B21550243609ED00EAB32E /* EncodableExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B21525243609ED00EAB32E /* EncodableExtensions.swift */; };
+		68B409D82461E02B0016BF4A /* BraspagCustomUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B409D72461E02B0016BF4A /* BraspagCustomUI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -117,6 +118,7 @@
 		68B21522243609ED00EAB32E /* Braspag3ds.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Braspag3ds.swift; sourceTree = "<group>"; };
 		68B21524243609ED00EAB32E /* DecodableExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DecodableExtensions.swift; sourceTree = "<group>"; };
 		68B21525243609ED00EAB32E /* EncodableExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EncodableExtensions.swift; sourceTree = "<group>"; };
+		68B409D72461E02B0016BF4A /* BraspagCustomUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BraspagCustomUI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -183,6 +185,7 @@
 			children = (
 				68B214F8243609EC00EAB32E /* Environment.swift */,
 				68B214F9243609EC00EAB32E /* ApiDefaults */,
+				68B409D62461E02B0016BF4A /* CustomUI */,
 				68B21505243609EC00EAB32E /* Data */,
 				68B2151F243609ED00EAB32E /* Authentication */,
 			);
@@ -270,6 +273,14 @@
 				68B21525243609ED00EAB32E /* EncodableExtensions.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		68B409D62461E02B0016BF4A /* CustomUI */ = {
+			isa = PBXGroup;
+			children = (
+				68B409D72461E02B0016BF4A /* BraspagCustomUI.swift */,
+			);
+			path = CustomUI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -386,6 +397,7 @@
 				68B21533243609ED00EAB32E /* CardData.swift in Sources */,
 				68B2154B243609ED00EAB32E /* AuthenticationMethod.swift in Sources */,
 				68B21527243609ED00EAB32E /* Api.swift in Sources */,
+				68B409D82461E02B0016BF4A /* BraspagCustomUI.swift in Sources */,
 				68B21539243609ED00EAB32E /* TransactionMode.swift in Sources */,
 				68B21547243609ED00EAB32E /* ProductCode.swift in Sources */,
 				68B21546243609ED00EAB32E /* RecurringData.swift in Sources */,

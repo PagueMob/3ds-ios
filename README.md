@@ -9,6 +9,16 @@ Versões disponíveis:
 
 ### Utilização
 
+#### Cocoapods
+
+Para adicionar o SDK ao seu projeto utilizando Cocoapods basta adicionar o seguinte comando ao seu Podfile:
+```ruby
+pod 'Braspag3Ds', :git => 'https://github.com/DeveloperCielo/3ds-ios.git', :tag => 'XXXX'
+```
+> Na tag você pode adicionar o número da versão que melhor se adequa ao seu projeto, conforme descrito na seção **Versões** acima.
+
+#### Instalação Manual
+
 Para adicionar o sdk ao projeto basta seguir os seguintes passos:
 
 1. Adicionar o sdk ao projeto, acessando as configurações do projeto na aba General, procurar a seção Frameworks, Libraries, and Embedded Content e clicar no botão +.

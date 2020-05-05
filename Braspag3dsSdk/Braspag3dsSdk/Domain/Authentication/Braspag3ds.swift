@@ -38,7 +38,8 @@ public class Braspag3ds: Braspag3dsProtocol {
     fileprivate var onCompletion: ((CallbackStatus, AuthenticationResponse?, String?) -> Void)!
     
     public init(accessToken: String,
-                environment: Environment = .production) {
+                environment: Environment = .production,
+                customUi: BraspagCustomUi? = nil) {
         
         let basicAuth = BasicToken(accessToken: accessToken)
         basicAuth.save()
@@ -47,7 +48,7 @@ public class Braspag3ds: Braspag3dsProtocol {
         self.environment = environment
         
         configureBasicToken()
-        configureCardinalSession()
+        configureCardinalSession(customUi: customUi)
     }
     
     public func authenticate(orderData: OrderData,
@@ -239,7 +240,7 @@ public class Braspag3ds: Braspag3dsProtocol {
         
     }
     
-    private func configureCardinalSession() {
+    private func configureCardinalSession(customUi: BraspagCustomUi?) {
         session = CardinalSession()
         let config = CardinalSessionConfiguration()
 
@@ -253,8 +254,9 @@ public class Braspag3ds: Braspag3dsProtocol {
         config.deploymentEnvironment = .staging
         config.uiType = .both
 
-        let yourCustomUi = UiCustomization()
-        config.uiCustomization = yourCustomUi
+        if let yourCustomUi = customUi {
+            config.uiCustomization = yourCustomUi
+        }
 
         config.renderType = [CardinalSessionRenderTypeOTP,
                              CardinalSessionRenderTypeHTML]

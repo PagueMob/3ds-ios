@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "Braspag3Ds"
-  spec.version      = "1.0.5"
+  spec.version      = "1.0.6"
   spec.summary      = "Biblioteca de validação de cartões de crédito"
 
   spec.description  = <<-DESC
@@ -21,14 +21,12 @@ Pod::Spec.new do |spec|
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   spec.platform     = :ios, "9.0"
-  spec.source       = { :git => "https://github.com/DeveloperCielo/3ds-ios.git", :tag => "1.0.3" }
+  spec.source       = { :git => "https://github.com/DeveloperCielo/3ds-ios.git", :tag => "#{spec.version}" }
   spec.swift_version = "5.0"
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   spec.source_files  = "Braspag3dsSdk/Braspag3dsSdk/**/*.{h,m,swift,framework}"
-  spec.resources = ['Braspag3dsSdk/CardinalMobile.framework']
-  spec.preserve_paths = 'Braspag3dsSdk/CardinalMobile.framework'
   spec.vendored_frameworks = 'Braspag3dsSdk/CardinalMobile.framework'
   spec.exclude_files = "Example3ds/*.*"
 end

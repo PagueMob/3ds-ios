@@ -1,0 +1,1007 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		002956E250B27DD8DB62EB0C96422586 /* EnrollData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72220C774187CF78588F549A9E24655D /* EnrollData.swift */; };
+		066F250D80867D2ED9705D1A1B21E806 /* Braspag3ds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 705A4B45EFDED7B4AE1CEFF3BABB0B55 /* Braspag3ds.swift */; };
+		155DE1280E1CC573C6415ECE001F4695 /* ShippingMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE08B2BB12E367ABCC08A3FF266DAA5F /* ShippingMethod.swift */; };
+		18BDA5283A077FE5B3375E864F2AB69B /* CartItemData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8D77E2963C0BC3488ECC81731000EE /* CartItemData.swift */; };
+		1ED247F234B77E8FA43E1F2FED775466 /* Pods-Example3dsCocoa-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C9D0C8672692C892A7EF3B66106B74B /* Pods-Example3dsCocoa-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		20BCFE725C707016E3EF9BF6F922DE21 /* CieloSilentOrderPost-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F3C404CFCFD0EC44D5EAC114BEA2C5B /* CieloSilentOrderPost-dummy.m */; };
+		263C99C253973D98CDF6BEF21460CF0F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		28D6E1BD7290241FFEDBDD616D854CDF /* EncodableExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119B1C5BC7830E8F383D94AD60ACFFFA /* EncodableExtensions.swift */; };
+		2C7BDF9174B14B69655F7F2BD9EBD8F4 /* AuthenticationResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F2B4D44C72B0263F290FC28B698880A /* AuthenticationResponse.swift */; };
+		2DB0F3A58254AF42C9B7CFF44729CE31 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		2F8C80EAF2E36D6B65D4756C78C3160F /* EnrollStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5775B233352FDFA7E760FAF8727503DE /* EnrollStatus.swift */; };
+		30B63910D208EA23103842C230B4D7AF /* CardData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5033C84C08011F367A3ECD087037096 /* CardData.swift */; };
+		318A1442F53F6C49D526D395EF679690 /* EncodableExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBEE6FA6CC099FE924F29090613D158 /* EncodableExtensions.swift */; };
+		339F04A5F5236555FF0481786F161D5A /* DecodableExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD43B9A51EB559CDCDDA98840728CB0E /* DecodableExtensions.swift */; };
+		343CF1FB5320538CBC5A1CD3B928B104 /* RequestType.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9909A36427200B9BF5C1EE3757142F /* RequestType.swift */; };
+		36C3ECA279606779A85423BAB334BBF7 /* MddData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04F872572FEEF7FC0C280FC0E85B6E9 /* MddData.swift */; };
+		37B159A89AE0312A766A1D8D464D52B5 /* Pods-Example3dsCocoa-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BF6F39312D608C057EA44E5F51426C68 /* Pods-Example3dsCocoa-dummy.m */; };
+		39818B5BBC676A1D5E227040B82B2C91 /* RequestOauth.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC02BD186A84D54AB7A1073F77193C3C /* RequestOauth.swift */; };
+		4709EE0FE02A17C922473BFFAB077508 /* DecodableExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22038EAE2619809E0BDE0A11BFC0E0E4 /* DecodableExtensions.swift */; };
+		4AA1FA4329AA20E432725B7D2BEE3F70 /* BraspagApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA39556E751DC68695734AFC97D51358 /* BraspagApi.swift */; };
+		4C271BC257A04AEFF5BDA18EE7AF63A1 /* MerchantInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938C05A955016D47688BD163D994EDB6 /* MerchantInfo.swift */; };
+		4EC66AAA8C0CF6BD2C82F360AE3E83E7 /* OptionsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C81FDA9AFA7B0B5BE15C51CAFAAC2D48 /* OptionsData.swift */; };
+		5B5462E41E978D15978E649CE48DC8BC /* Braspag3Ds-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C3BDAD4E7C37AD2C2B37E10F10020B0D /* Braspag3Ds-dummy.m */; };
+		6B6ACC686F9E48859951715F30CE53BF /* AuthenticationStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A271847FFA2DE1F23FEFBAE7AB3FEBE /* AuthenticationStatus.swift */; };
+		6BF48BAFD1D7524B511096B3500C660C /* ShipToData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56F58D434CF1097FC03444F77EE154E /* ShipToData.swift */; };
+		73E32F8AC2D1DF9DBC83CE0D79D94BCC /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B79CCEDB5E165F89BFEC11172CF5D4 /* Environment.swift */; };
+		76F3EB33DE7529779A36D341B658327A /* RequestOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AED2AA0361F2F879E5EF03278AF9268 /* RequestOrder.swift */; };
+		7926DE2B853D2B840624DCD7C220B33E /* Passenger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664D216DDF8F0CF2388F077356EF8ADF /* Passenger.swift */; };
+		835E4198172D1A264BACCEB2EC3D8996 /* SilentOrderPost.h in Headers */ = {isa = PBXBuildFile; fileRef = 961B5F7629D50B4D2B089DC4501E3109 /* SilentOrderPost.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		899F457AE07FBFCE66237442253D7D22 /* TransactionMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9317952ED2479DD3EF5FA31562037416 /* TransactionMode.swift */; };
+		89BA53165259B2E83850B8FEAA2D1A0B /* BraspagApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8280FE24F20ADD705B4885BCE4346960 /* BraspagApiClient.swift */; };
+		8B234D99E952EB24C0941D1BC058340D /* TravelLeg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399B8092726EEEC78770925D77A6E85C /* TravelLeg.swift */; };
+		8B9A05B007E5C3620657208BAE4511C7 /* RemoteDatasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB979765A479649ADBC9F0029DE6115 /* RemoteDatasource.swift */; };
+		8BB07E2B3213F030365D6CB2A6B9F9D7 /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729E92900D4122928D60644B65EAEFBB /* Api.swift */; };
+		8BEF96531DD3ADE3428923C989156709 /* EnrollAuthentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C1C807E9A0BE4FA8CC31B819BD25B8 /* EnrollAuthentication.swift */; };
+		8CAA321D63FC6B07CF0458895C5A1D1A /* AirlineData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D609FCD65945B589547964E35A6FF89 /* AirlineData.swift */; };
+		8E1A6761C6F9AD3504380AF2B46DC193 /* RecurringFrequency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903720DFE367B70237AA604A167B6699 /* RecurringFrequency.swift */; };
+		918A8E0BBA09D6CB367A0BB4C982C5B2 /* SilentOrderPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5786A4B87F6A49D2367570C3C44896C /* SilentOrderPost.swift */; };
+		92C711848802F16051912A1014EA1D81 /* ResponseEnroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1688F574926D46B3F2F53D19FED1505E /* ResponseEnroll.swift */; };
+		97FB0BEF42A7B0FC3AC5DC7D9A8B6ABC /* RequestOperations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6335C3950BC0CC007AEE62346CFBEA07 /* RequestOperations.swift */; };
+		985D174FC9BE4C0D6892FADB40E442A2 /* SuccessResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 532F367D1752C3E275969B3F35E195F4 /* SuccessResult.swift */; };
+		994B0773CE6F928092AC2ABEC773285B /* DeviceData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A46946CB93231DE20609902329D0CD2 /* DeviceData.swift */; };
+		9D4402B305D2BF8A256E195CD16CBA90 /* ResponseOauthToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E0A832FC122BBCB79B078BE5E97D7F /* ResponseOauthToken.swift */; };
+		A4BB96B8D0B696FD6A42B08522D86042 /* BraspagCustomUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE608338EB734093177454D3070A680E /* BraspagCustomUI.swift */; };
+		A532AA5B215493ECD91989921F0008C5 /* ResponseValidate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F93535AAAF9FB57D13ECF7166E37381 /* ResponseValidate.swift */; };
+		A5758AB044532BB28AB1481DF2EDB065 /* ErrorResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2363857B23C77991163B54C51E477332 /* ErrorResult.swift */; };
+		A7C81C6C73BAB6E92DD0B459BF7FCB1F /* ResponseJwt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43672AF460540A79951EFAAE46BD8533 /* ResponseJwt.swift */; };
+		AE5516BB5586CB5180DC9CD03421C5D9 /* CallbackStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314B8E7B77F8D650704CBB5BFCCDD89F /* CallbackStatus.swift */; };
+		AE7DFB454AD3B5D80CE509F57DFC94C2 /* AuthenticationMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CEFB4660C8B5271873A6546FEC7BD00 /* AuthenticationMethod.swift */; };
+		B03EB95B1ACFC875076D3162D2AE49F4 /* BillToData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC26484BD2022A23A475F965D6C60B8 /* BillToData.swift */; };
+		B2E31D66D9A228A88C0E6680A60E29CC /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE65322889F6FA5D4BD20B5494DD167A /* UserData.swift */; };
+		B5F764065CAA19278A8BCB15C52F5EF7 /* ProductCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E31C5C909D48C02109A4BCF85BC8D9F /* ProductCode.swift */; };
+		C42F869FB30EC56A22C8FDE8E355BEE5 /* RecurringData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F135F6E8D8DAF7968846549BF4F8B4 /* RecurringData.swift */; };
+		C77452AE9235177672A89DD1487CDB83 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5A052ECC9A3347781CB55B4AF5A428 /* Enums.swift */; };
+		CC336E29DEB03A87F6FFB02D555FE151 /* CieloSilentOrderPost-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FCDB78C4744FF08D04ECE48B3A2A7F5 /* CieloSilentOrderPost-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE0BD7B63C1C086E680BA2F334389655 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		CE15A3C24C8E56846B254E00A5FC737F /* ValidationResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204A3A9BD94B11225214B9550A77A52E /* ValidationResults.swift */; };
+		D110B8797111E114C5B03CC0333D5338 /* PaymentMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = F83E6C2EF3965E34CBDBA3B6D03A86D4 /* PaymentMethod.swift */; };
+		D192D37E9BD47B69E2A86653CEF44F49 /* Braspag3Ds-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F593320B94984DF9D65B5953B0C128C /* Braspag3Ds-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E8D964BAABC7EC2334A53C9405B6B334 /* RequestValidate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E180C13D7914A388D1016A4764D736C /* RequestValidate.swift */; };
+		EAEC6D1650665482CB8B3926CED18B1D /* Braspag3dsSdk.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D2BDF8CD5A63119C9912FA3C305EF07 /* Braspag3dsSdk.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F61EC57DBDD726340851E3C555EDB051 /* BasicToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F30BE1759F7248D9983E35B33C5AFFA /* BasicToken.swift */; };
+		F6E740CD53E53C5C5E7DE11066B0BA91 /* OrderData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7CD89DB3AEF6B89CF0B9DB9101B39C /* OrderData.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5EE10FC1D359831B9E7A18F96E1839BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 89AEE3C1FBD492DFF62DDB39E4E4D68D;
+			remoteInfo = CieloSilentOrderPost;
+		};
+		8021386F19746617207CE88817B8D4BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55D410B21DC84B97A82F49A9475B7E5B;
+			remoteInfo = Braspag3Ds;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		080CB505EBBC13EAB3F138BE5C03177A /* Pods-Example3dsCocoa-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Example3dsCocoa-Info.plist"; sourceTree = "<group>"; };
+		0B16CAFAF6C10E3835F27A315727BD32 /* CieloSilentOrderPost.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CieloSilentOrderPost.framework; path = CieloSilentOrderPost.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C28B7612C2DAAA1F195F424B3ECA16A /* CieloSilentOrderPost-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CieloSilentOrderPost-prefix.pch"; sourceTree = "<group>"; };
+		119B1C5BC7830E8F383D94AD60ACFFFA /* EncodableExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EncodableExtensions.swift; path = Braspag3dsSdk/Braspag3dsSdk/Extensions/EncodableExtensions.swift; sourceTree = "<group>"; };
+		15C0F71075F38C194E8DD74DCCA4371D /* Pods-Example3dsCocoa-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Example3dsCocoa-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1688F574926D46B3F2F53D19FED1505E /* ResponseEnroll.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseEnroll.swift; path = Braspag3dsSdk/Braspag3dsSdk/Domain/ApiDefaults/Responses/ResponseEnroll.swift; sourceTree = "<group>"; };
+		1F30BE1759F7248D9983E35B33C5AFFA /* BasicToken.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BasicToken.swift; path = Braspag3dsSdk/Braspag3dsSdk/Domain/Data/BasicToken.swift; sourceTree = "<group>"; };
+		204A3A9BD94B11225214B9550A77A52E /* ValidationResults.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ValidationResults.swift; path = SilentOrderPost/SilentOrderPost/Domain/ValidationResults.swift; sourceTree = "<group>"; };
+		22038EAE2619809E0BDE0A11BFC0E0E4 /* DecodableExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DecodableExtensions.swift; path = SilentOrderPost/SilentOrderPost/Extensions/DecodableExtensions.swift; sourceTree = "<group>"; };
+		2363857B23C77991163B54C51E477332 /* ErrorResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ErrorResult.swift; path = SilentOrderPost/SilentOrderPost/Domain/ErrorResult.swift; sourceTree = "<group>"; };
+		23F51BE73D0E4CBB467CF4897709B9B7 /* CieloSilentOrderPost.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CieloSilentOrderPost.release.xcconfig; sourceTree = "<group>"; };
+		24AB84CA49FAD163904FFAA4E420E2B2 /* CardinalMobile.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CardinalMobile.framework; path = Braspag3dsSdk/CardinalMobile.framework; sourceTree = "<group>"; };
+		2D2BDF8CD5A63119C9912FA3C305EF07 /* Braspag3dsSdk.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Braspag3dsSdk.h; path = Braspag3dsSdk/Braspag3dsSdk/Braspag3dsSdk.h; sourceTree = "<group>"; };
+		2E758F249536644F28508B5CBB0FF420 /* Pods-Example3dsCocoa-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Example3dsCocoa-frameworks.sh"; sourceTree = "<group>"; };
+		314B8E7B77F8D650704CBB5BFCCDD89F /* CallbackStatus.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CallbackStatus.swift; path = Braspag3dsSdk/Braspag3dsSdk/Domain/Data/CallbackStatus.swift; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		399B8092726EEEC78770925D77A6E85C /* TravelLeg.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TravelLeg.swift; path = Braspag3dsSdk/Braspag3dsSdk/Domain/Data/TravelLeg.swift; sourceTree = "<group>"; };
+		3FBEE6FA6CC099FE924F29090613D158 /* EncodableExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EncodableExtensions.swift; path = SilentOrderPost/SilentOrderPost/Extensions/EncodableExtensions.swift; sourceTree = "<group>"; };
+		3FCDB78C4744FF08D04ECE48B3A2A7F5 /* CieloSilentOrderPost-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CieloSilentOrderPost-umbrella.h"; sourceTree = "<group>"; };
+		43672AF460540A79951EFAAE46BD8533 /* ResponseJwt.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseJwt.swift; path = Braspag3dsSdk/Braspag3dsSdk/Domain/ApiDefaults/Responses/ResponseJwt.swift; sourceTree = "<group>"; };
+		44F135F6E8D8DAF7968846549BF4F8B4 /* RecurringData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RecurringData.swift; path = Braspag3dsSdk/Braspag3dsSdk/Domain/Data/RecurringData.swift; sourceTree = "<group>"; };
+		49B7252037871A7CEFFDE88ACEA66FD0 /* Pods-Example3dsCocoa-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Example3dsCocoa-acknowledgements.plist"; sourceTree = "<group>"; };
+		4AA4321B2772F00BB631024E7C2606B5 /* CieloSilentOrderPost-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CieloSilentOrderPost-Info.plist"; sourceTree = "<group>"; };
+		4BC26484BD2022A23A475F965D6C60B8 /* BillToData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BillToData.swift; path = Braspag3dsSdk/Braspag3dsSdk/Domain/Data/BillToData.swift; sourceTree = "<group>"; };
+		4CEFB4660C8B5271873A6546FEC7BD00 /* AuthenticationMethod.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AuthenticationMethod.swift; path = Braspag3dsSdk/Braspag3dsSdk/Domain/Data/AuthenticationMethod.swift; sourceTree = "<group>"; };
+		4D609FCD65945B589547964E35A6FF89 /* AirlineData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AirlineData.swift; path = Braspag3dsSdk/Braspag3dsSdk/Domain/Data/AirlineData.swift; sourceTree = "<group>"; };
+		532F367D1752C3E275969B3F35E195F4 /* SuccessResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SuccessResult.swift; path = SilentOrderPost/SilentOrderPost/Domain/SuccessResult.swift; sourceTree = "<group>"; };
+		5775B233352FDFA7E760FAF8727503DE /* EnrollStatus.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EnrollStatus.swift; path = Braspag3dsSdk/Braspag3dsSdk/Domain/Data/EnrollStatus.swift; sourceTree = "<group>"; };
+		5A271847FFA2DE1F23FEFBAE7AB3FEBE /* AuthenticationStatus.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AuthenticationStatus.swift; path = Braspag3dsSdk/Braspag3dsSdk/Domain/Data/AuthenticationStatus.swift; sourceTree = "<group>"; };
+		5A46946CB93231DE20609902329D0CD2 /* DeviceData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DeviceData.swift; path = Braspag3dsSdk/Braspag3dsSdk/Domain/Data/DeviceData.swift; sourceTree = "<group>"; };
+		5C9D0C8672692C892A7EF3B66106B74B /* Pods-Example3dsCocoa-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Example3dsCocoa-umbrella.h"; sourceTree = "<group>"; };
+		5F93535AAAF9FB57D13ECF7166E37381 /* ResponseValidate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseValidate.swift; path = Braspag3dsSdk/Braspag3dsSdk/Domain/ApiDefaults/Requests/ResponseValidate.swift; sourceTree = "<group>"; };
+		62DB7979497DC8FCAB27E2A79885D1F4 /* Pods-Example3dsCocoa.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example3dsCocoa.debug.xcconfig"; sourceTree = "<group>"; };
+		6335C3950BC0CC007AEE62346CFBEA07 /* RequestOperations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestOperations.swift; path = Braspag3dsSdk/Braspag3dsSdk/Networking/RequestOperations.swift; sourceTree = "<group>"; };
+		6497C3CF234FF8935B0C270A7A457B4C /* Braspag3Ds.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Braspag3Ds.modulemap; sourceTree = "<group>"; };
+		64E097392C9BA3EBC48C70E404C9EB2A /* Braspag3Ds.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Braspag3Ds.framework; path = Braspag3Ds.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		664D216DDF8F0CF2388F077356EF8ADF /* Passenger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Passenger.swift; path = Braspag3dsSdk/Braspag3dsSdk/Domain/Data/Passenger.swift; sourceTree = "<group>"; };
+		6E31C5C909D48C02109A4BCF85BC8D9F /* ProductCode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ProductCode.swift; path = Braspag3dsSdk/Braspag3dsSdk/Domain/Data/ProductCode.swift; sourceTree = "<group>"; };
+		6F2B4D44C72B0263F290FC28B698880A /* AuthenticationResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AuthenticationResponse.swift; path = Braspag3dsSdk/Braspag3dsSdk/Domain/Authentication/AuthenticationResponse.swift; sourceTree = "<group>"; };
+		6F3C404CFCFD0EC44D5EAC114BEA2C5B /* CieloSilentOrderPost-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CieloSilentOrderPost-dummy.m"; sourceTree = "<group>"; };
+		705A4B45EFDED7B4AE1CEFF3BABB0B55 /* Braspag3ds.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Braspag3ds.swift; path = Braspag3dsSdk/Braspag3dsSdk/Domain/Authentication/Braspag3ds.swift; sourceTree = "<group>"; };
+		72220C774187CF78588F549A9E24655D /* EnrollData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EnrollData.swift; path = Braspag3dsSdk/Braspag3dsSdk/Domain/Data/EnrollData.swift; sourceTree = "<group>"; };
+		729E92900D4122928D60644B65EAEFBB /* Api.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Api.swift; path = Braspag3dsSdk/Braspag3dsSdk/Networking/Api.swift; sourceTree = "<group>"; };
+		736AA974EE42F7B2F3138533CFC175F2 /* Braspag3Ds.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Braspag3Ds.debug.xcconfig; sourceTree = "<group>"; };
+		7A55E305DF57C7AF6E2A81CB6684FBA9 /* Braspag3Ds.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Braspag3Ds.release.xcconfig; sourceTree = "<group>"; };
+		8280FE24F20ADD705B4885BCE4346960 /* BraspagApiClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BraspagApiClient.swift; path = Braspag3dsSdk/Braspag3dsSdk/Domain/ApiDefaults/BraspagApiClient.swift; sourceTree = "<group>"; };
+		84DF63B5EA9E66B5D780A4B88111174C /* CieloSilentOrderPost.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CieloSilentOrderPost.debug.xcconfig; sourceTree = "<group>"; };
+		8F593320B94984DF9D65B5953B0C128C /* Braspag3Ds-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Braspag3Ds-umbrella.h"; sourceTree = "<group>"; };
+		903720DFE367B70237AA604A167B6699 /* RecurringFrequency.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RecurringFrequency.swift; path = Braspag3dsSdk/Braspag3dsSdk/Domain/Data/RecurringFrequency.swift; sourceTree = "<group>"; };
+		9317952ED2479DD3EF5FA31562037416 /* TransactionMode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransactionMode.swift; path = Braspag3dsSdk/Braspag3dsSdk/Domain/Data/TransactionMode.swift; sourceTree = "<group>"; };
+		938C05A955016D47688BD163D994EDB6 /* MerchantInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MerchantInfo.swift; path = Braspag3dsSdk/Braspag3dsSdk/Domain/Data/MerchantInfo.swift; sourceTree = "<group>"; };
+		961B5F7629D50B4D2B089DC4501E3109 /* SilentOrderPost.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SilentOrderPost.h; path = SilentOrderPost/SilentOrderPost/SilentOrderPost.h; sourceTree = "<group>"; };
+		99C1C807E9A0BE4FA8CC31B819BD25B8 /* EnrollAuthentication.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EnrollAuthentication.swift; path = Braspag3dsSdk/Braspag3dsSdk/Domain/Authentication/EnrollAuthentication.swift; sourceTree = "<group>"; };
+		9AED2AA0361F2F879E5EF03278AF9268 /* RequestOrder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestOrder.swift; path = Braspag3dsSdk/Braspag3dsSdk/Domain/ApiDefaults/Requests/RequestOrder.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E180C13D7914A388D1016A4764D736C /* RequestValidate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestValidate.swift; path = Braspag3dsSdk/Braspag3dsSdk/Domain/ApiDefaults/Responses/RequestValidate.swift; sourceTree = "<group>"; };
+		A4D8BEE9AF40C38B1ECC6FA365E6FDDC /* Pods-Example3dsCocoa.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Example3dsCocoa.modulemap"; sourceTree = "<group>"; };
+		ACB979765A479649ADBC9F0029DE6115 /* RemoteDatasource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RemoteDatasource.swift; path = SilentOrderPost/SilentOrderPost/Networking/RemoteDatasource.swift; sourceTree = "<group>"; };
+		AE3F99F962B30FB96139C792B3359900 /* Braspag3Ds-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Braspag3Ds-Info.plist"; sourceTree = "<group>"; };
+		B8CB0D910A378893CB8261C80E411FA8 /* Braspag3Ds-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Braspag3Ds-prefix.pch"; sourceTree = "<group>"; };
+		BA39556E751DC68695734AFC97D51358 /* BraspagApi.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BraspagApi.swift; path = Braspag3dsSdk/Braspag3dsSdk/Domain/ApiDefaults/BraspagApi.swift; sourceTree = "<group>"; };
+		BE608338EB734093177454D3070A680E /* BraspagCustomUI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BraspagCustomUI.swift; path = Braspag3dsSdk/Braspag3dsSdk/Domain/CustomUI/BraspagCustomUI.swift; sourceTree = "<group>"; };
+		BF6F39312D608C057EA44E5F51426C68 /* Pods-Example3dsCocoa-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Example3dsCocoa-dummy.m"; sourceTree = "<group>"; };
+		C2626513E4FC6C81A5DAFB5FE21BD22F /* Pods_Example3dsCocoa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Example3dsCocoa.framework; path = "Pods-Example3dsCocoa.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3BDAD4E7C37AD2C2B37E10F10020B0D /* Braspag3Ds-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Braspag3Ds-dummy.m"; sourceTree = "<group>"; };
+		C5033C84C08011F367A3ECD087037096 /* CardData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CardData.swift; path = Braspag3dsSdk/Braspag3dsSdk/Domain/Data/CardData.swift; sourceTree = "<group>"; };
+		C5786A4B87F6A49D2367570C3C44896C /* SilentOrderPost.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SilentOrderPost.swift; path = SilentOrderPost/SilentOrderPost/SilentOrderPost.swift; sourceTree = "<group>"; };
+		C71C320C2D742D53DA210DEA7AA64517 /* Pods-Example3dsCocoa.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example3dsCocoa.release.xcconfig"; sourceTree = "<group>"; };
+		C81FDA9AFA7B0B5BE15C51CAFAAC2D48 /* OptionsData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OptionsData.swift; path = Braspag3dsSdk/Braspag3dsSdk/Domain/Data/OptionsData.swift; sourceTree = "<group>"; };
+		CD43B9A51EB559CDCDDA98840728CB0E /* DecodableExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DecodableExtensions.swift; path = Braspag3dsSdk/Braspag3dsSdk/Extensions/DecodableExtensions.swift; sourceTree = "<group>"; };
+		CE08B2BB12E367ABCC08A3FF266DAA5F /* ShippingMethod.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ShippingMethod.swift; path = Braspag3dsSdk/Braspag3dsSdk/Domain/Data/ShippingMethod.swift; sourceTree = "<group>"; };
+		D56F58D434CF1097FC03444F77EE154E /* ShipToData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ShipToData.swift; path = Braspag3dsSdk/Braspag3dsSdk/Domain/Data/ShipToData.swift; sourceTree = "<group>"; };
+		D77F8E5D1AB56980129DDE0ADF3A07A0 /* CieloSilentOrderPost.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CieloSilentOrderPost.modulemap; sourceTree = "<group>"; };
+		DE9909A36427200B9BF5C1EE3757142F /* RequestType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestType.swift; path = Braspag3dsSdk/Braspag3dsSdk/Networking/RequestType.swift; sourceTree = "<group>"; };
+		E4E0A832FC122BBCB79B078BE5E97D7F /* ResponseOauthToken.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseOauthToken.swift; path = Braspag3dsSdk/Braspag3dsSdk/Domain/ApiDefaults/Responses/ResponseOauthToken.swift; sourceTree = "<group>"; };
+		EF5A052ECC9A3347781CB55B4AF5A428 /* Enums.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Enums.swift; path = SilentOrderPost/SilentOrderPost/Domain/Enums.swift; sourceTree = "<group>"; };
+		EF7CD89DB3AEF6B89CF0B9DB9101B39C /* OrderData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OrderData.swift; path = Braspag3dsSdk/Braspag3dsSdk/Domain/Data/OrderData.swift; sourceTree = "<group>"; };
+		F04F872572FEEF7FC0C280FC0E85B6E9 /* MddData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MddData.swift; path = Braspag3dsSdk/Braspag3dsSdk/Domain/Data/MddData.swift; sourceTree = "<group>"; };
+		F0B79CCEDB5E165F89BFEC11172CF5D4 /* Environment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Environment.swift; path = Braspag3dsSdk/Braspag3dsSdk/Domain/Environment.swift; sourceTree = "<group>"; };
+		F83E6C2EF3965E34CBDBA3B6D03A86D4 /* PaymentMethod.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PaymentMethod.swift; path = Braspag3dsSdk/Braspag3dsSdk/Domain/Data/PaymentMethod.swift; sourceTree = "<group>"; };
+		FC02BD186A84D54AB7A1073F77193C3C /* RequestOauth.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestOauth.swift; path = Braspag3dsSdk/Braspag3dsSdk/Domain/ApiDefaults/Requests/RequestOauth.swift; sourceTree = "<group>"; };
+		FE65322889F6FA5D4BD20B5494DD167A /* UserData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UserData.swift; path = Braspag3dsSdk/Braspag3dsSdk/Domain/Data/UserData.swift; sourceTree = "<group>"; };
+		FF8D77E2963C0BC3488ECC81731000EE /* CartItemData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CartItemData.swift; path = Braspag3dsSdk/Braspag3dsSdk/Domain/Data/CartItemData.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2C47727A6F140E5F730A2D267D5CBF85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE0BD7B63C1C086E680BA2F334389655 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FA6DCB8854343C8BA5B975BB339A432 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DB0F3A58254AF42C9B7CFF44729CE31 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51A2EC608A4CB50AFB0E237B93086791 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				263C99C253973D98CDF6BEF21460CF0F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00AE97EDBA1E3F83F12C0A1E870C6D5D /* Braspag3Ds */ = {
+			isa = PBXGroup;
+			children = (
+				4D609FCD65945B589547964E35A6FF89 /* AirlineData.swift */,
+				729E92900D4122928D60644B65EAEFBB /* Api.swift */,
+				4CEFB4660C8B5271873A6546FEC7BD00 /* AuthenticationMethod.swift */,
+				6F2B4D44C72B0263F290FC28B698880A /* AuthenticationResponse.swift */,
+				5A271847FFA2DE1F23FEFBAE7AB3FEBE /* AuthenticationStatus.swift */,
+				1F30BE1759F7248D9983E35B33C5AFFA /* BasicToken.swift */,
+				4BC26484BD2022A23A475F965D6C60B8 /* BillToData.swift */,
+				705A4B45EFDED7B4AE1CEFF3BABB0B55 /* Braspag3ds.swift */,
+				2D2BDF8CD5A63119C9912FA3C305EF07 /* Braspag3dsSdk.h */,
+				BA39556E751DC68695734AFC97D51358 /* BraspagApi.swift */,
+				8280FE24F20ADD705B4885BCE4346960 /* BraspagApiClient.swift */,
+				BE608338EB734093177454D3070A680E /* BraspagCustomUI.swift */,
+				314B8E7B77F8D650704CBB5BFCCDD89F /* CallbackStatus.swift */,
+				C5033C84C08011F367A3ECD087037096 /* CardData.swift */,
+				FF8D77E2963C0BC3488ECC81731000EE /* CartItemData.swift */,
+				CD43B9A51EB559CDCDDA98840728CB0E /* DecodableExtensions.swift */,
+				5A46946CB93231DE20609902329D0CD2 /* DeviceData.swift */,
+				119B1C5BC7830E8F383D94AD60ACFFFA /* EncodableExtensions.swift */,
+				99C1C807E9A0BE4FA8CC31B819BD25B8 /* EnrollAuthentication.swift */,
+				72220C774187CF78588F549A9E24655D /* EnrollData.swift */,
+				5775B233352FDFA7E760FAF8727503DE /* EnrollStatus.swift */,
+				F0B79CCEDB5E165F89BFEC11172CF5D4 /* Environment.swift */,
+				F04F872572FEEF7FC0C280FC0E85B6E9 /* MddData.swift */,
+				938C05A955016D47688BD163D994EDB6 /* MerchantInfo.swift */,
+				C81FDA9AFA7B0B5BE15C51CAFAAC2D48 /* OptionsData.swift */,
+				EF7CD89DB3AEF6B89CF0B9DB9101B39C /* OrderData.swift */,
+				664D216DDF8F0CF2388F077356EF8ADF /* Passenger.swift */,
+				F83E6C2EF3965E34CBDBA3B6D03A86D4 /* PaymentMethod.swift */,
+				6E31C5C909D48C02109A4BCF85BC8D9F /* ProductCode.swift */,
+				44F135F6E8D8DAF7968846549BF4F8B4 /* RecurringData.swift */,
+				903720DFE367B70237AA604A167B6699 /* RecurringFrequency.swift */,
+				FC02BD186A84D54AB7A1073F77193C3C /* RequestOauth.swift */,
+				6335C3950BC0CC007AEE62346CFBEA07 /* RequestOperations.swift */,
+				9AED2AA0361F2F879E5EF03278AF9268 /* RequestOrder.swift */,
+				DE9909A36427200B9BF5C1EE3757142F /* RequestType.swift */,
+				9E180C13D7914A388D1016A4764D736C /* RequestValidate.swift */,
+				1688F574926D46B3F2F53D19FED1505E /* ResponseEnroll.swift */,
+				43672AF460540A79951EFAAE46BD8533 /* ResponseJwt.swift */,
+				E4E0A832FC122BBCB79B078BE5E97D7F /* ResponseOauthToken.swift */,
+				5F93535AAAF9FB57D13ECF7166E37381 /* ResponseValidate.swift */,
+				CE08B2BB12E367ABCC08A3FF266DAA5F /* ShippingMethod.swift */,
+				D56F58D434CF1097FC03444F77EE154E /* ShipToData.swift */,
+				9317952ED2479DD3EF5FA31562037416 /* TransactionMode.swift */,
+				399B8092726EEEC78770925D77A6E85C /* TravelLeg.swift */,
+				FE65322889F6FA5D4BD20B5494DD167A /* UserData.swift */,
+				486CCE33BAD27F5BC3795B5B3B27DBEC /* Frameworks */,
+				CA7B4C7B9C08DD2A445AD5822D8129C3 /* Support Files */,
+			);
+			name = Braspag3Ds;
+			path = Braspag3Ds;
+			sourceTree = "<group>";
+		};
+		3DB876C1ABE77FC67D4A7E6F351F6BF8 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8FF2063B404DD8FFFBA6272A4F1EE5F8 /* Pods-Example3dsCocoa */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		486CCE33BAD27F5BC3795B5B3B27DBEC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				24AB84CA49FAD163904FFAA4E420E2B2 /* CardinalMobile.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		564DF23F17F85A69C24BBAC079A424F4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				00AE97EDBA1E3F83F12C0A1E870C6D5D /* Braspag3Ds */,
+				D1AD6BCA30221552292D3CD4DFC1CE3A /* CieloSilentOrderPost */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8FF2063B404DD8FFFBA6272A4F1EE5F8 /* Pods-Example3dsCocoa */ = {
+			isa = PBXGroup;
+			children = (
+				A4D8BEE9AF40C38B1ECC6FA365E6FDDC /* Pods-Example3dsCocoa.modulemap */,
+				15C0F71075F38C194E8DD74DCCA4371D /* Pods-Example3dsCocoa-acknowledgements.markdown */,
+				49B7252037871A7CEFFDE88ACEA66FD0 /* Pods-Example3dsCocoa-acknowledgements.plist */,
+				BF6F39312D608C057EA44E5F51426C68 /* Pods-Example3dsCocoa-dummy.m */,
+				2E758F249536644F28508B5CBB0FF420 /* Pods-Example3dsCocoa-frameworks.sh */,
+				080CB505EBBC13EAB3F138BE5C03177A /* Pods-Example3dsCocoa-Info.plist */,
+				5C9D0C8672692C892A7EF3B66106B74B /* Pods-Example3dsCocoa-umbrella.h */,
+				62DB7979497DC8FCAB27E2A79885D1F4 /* Pods-Example3dsCocoa.debug.xcconfig */,
+				C71C320C2D742D53DA210DEA7AA64517 /* Pods-Example3dsCocoa.release.xcconfig */,
+			);
+			name = "Pods-Example3dsCocoa";
+			path = "Target Support Files/Pods-Example3dsCocoa";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CA7B4C7B9C08DD2A445AD5822D8129C3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6497C3CF234FF8935B0C270A7A457B4C /* Braspag3Ds.modulemap */,
+				C3BDAD4E7C37AD2C2B37E10F10020B0D /* Braspag3Ds-dummy.m */,
+				AE3F99F962B30FB96139C792B3359900 /* Braspag3Ds-Info.plist */,
+				B8CB0D910A378893CB8261C80E411FA8 /* Braspag3Ds-prefix.pch */,
+				8F593320B94984DF9D65B5953B0C128C /* Braspag3Ds-umbrella.h */,
+				736AA974EE42F7B2F3138533CFC175F2 /* Braspag3Ds.debug.xcconfig */,
+				7A55E305DF57C7AF6E2A81CB6684FBA9 /* Braspag3Ds.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Braspag3Ds";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				564DF23F17F85A69C24BBAC079A424F4 /* Pods */,
+				DC66F0F14B42AE2D26B262B2B1C0CABB /* Products */,
+				3DB876C1ABE77FC67D4A7E6F351F6BF8 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D183F62414368DBA5B783EF3DDBDE591 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D77F8E5D1AB56980129DDE0ADF3A07A0 /* CieloSilentOrderPost.modulemap */,
+				6F3C404CFCFD0EC44D5EAC114BEA2C5B /* CieloSilentOrderPost-dummy.m */,
+				4AA4321B2772F00BB631024E7C2606B5 /* CieloSilentOrderPost-Info.plist */,
+				0C28B7612C2DAAA1F195F424B3ECA16A /* CieloSilentOrderPost-prefix.pch */,
+				3FCDB78C4744FF08D04ECE48B3A2A7F5 /* CieloSilentOrderPost-umbrella.h */,
+				84DF63B5EA9E66B5D780A4B88111174C /* CieloSilentOrderPost.debug.xcconfig */,
+				23F51BE73D0E4CBB467CF4897709B9B7 /* CieloSilentOrderPost.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CieloSilentOrderPost";
+			sourceTree = "<group>";
+		};
+		D1AD6BCA30221552292D3CD4DFC1CE3A /* CieloSilentOrderPost */ = {
+			isa = PBXGroup;
+			children = (
+				22038EAE2619809E0BDE0A11BFC0E0E4 /* DecodableExtensions.swift */,
+				3FBEE6FA6CC099FE924F29090613D158 /* EncodableExtensions.swift */,
+				EF5A052ECC9A3347781CB55B4AF5A428 /* Enums.swift */,
+				2363857B23C77991163B54C51E477332 /* ErrorResult.swift */,
+				ACB979765A479649ADBC9F0029DE6115 /* RemoteDatasource.swift */,
+				961B5F7629D50B4D2B089DC4501E3109 /* SilentOrderPost.h */,
+				C5786A4B87F6A49D2367570C3C44896C /* SilentOrderPost.swift */,
+				532F367D1752C3E275969B3F35E195F4 /* SuccessResult.swift */,
+				204A3A9BD94B11225214B9550A77A52E /* ValidationResults.swift */,
+				D183F62414368DBA5B783EF3DDBDE591 /* Support Files */,
+			);
+			name = CieloSilentOrderPost;
+			path = CieloSilentOrderPost;
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC66F0F14B42AE2D26B262B2B1C0CABB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				64E097392C9BA3EBC48C70E404C9EB2A /* Braspag3Ds.framework */,
+				0B16CAFAF6C10E3835F27A315727BD32 /* CieloSilentOrderPost.framework */,
+				C2626513E4FC6C81A5DAFB5FE21BD22F /* Pods_Example3dsCocoa.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		03B07458111577F893F1993413BDEAEA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D192D37E9BD47B69E2A86653CEF44F49 /* Braspag3Ds-umbrella.h in Headers */,
+				EAEC6D1650665482CB8B3926CED18B1D /* Braspag3dsSdk.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21CD1220C3C01045441BAA2E815AECBE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1ED247F234B77E8FA43E1F2FED775466 /* Pods-Example3dsCocoa-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94D4BDD5D6472C48DD0FFF26EA700D28 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC336E29DEB03A87F6FFB02D555FE151 /* CieloSilentOrderPost-umbrella.h in Headers */,
+				835E4198172D1A264BACCEB2EC3D8996 /* SilentOrderPost.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		55D410B21DC84B97A82F49A9475B7E5B /* Braspag3Ds */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 812B425F75B6F593D0F0E614B073B0A5 /* Build configuration list for PBXNativeTarget "Braspag3Ds" */;
+			buildPhases = (
+				03B07458111577F893F1993413BDEAEA /* Headers */,
+				769BEE8B68C98EB959D93D6EF8D60E13 /* Sources */,
+				3FA6DCB8854343C8BA5B975BB339A432 /* Frameworks */,
+				1DD1AF512A6C7CC6C2EB063909E54BA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Braspag3Ds;
+			productName = Braspag3Ds;
+			productReference = 64E097392C9BA3EBC48C70E404C9EB2A /* Braspag3Ds.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		89AEE3C1FBD492DFF62DDB39E4E4D68D /* CieloSilentOrderPost */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95C9C70BC297063FE42F4CB044D423DE /* Build configuration list for PBXNativeTarget "CieloSilentOrderPost" */;
+			buildPhases = (
+				94D4BDD5D6472C48DD0FFF26EA700D28 /* Headers */,
+				8E5769B40FB5423AB81D525F10D051F4 /* Sources */,
+				2C47727A6F140E5F730A2D267D5CBF85 /* Frameworks */,
+				D42CA7AC9416BA9CE168C044291E43C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CieloSilentOrderPost;
+			productName = CieloSilentOrderPost;
+			productReference = 0B16CAFAF6C10E3835F27A315727BD32 /* CieloSilentOrderPost.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E5B5935BA07EF3CF670939534F775470 /* Pods-Example3dsCocoa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEE469513EB4869A0894BD14A77104C3 /* Build configuration list for PBXNativeTarget "Pods-Example3dsCocoa" */;
+			buildPhases = (
+				21CD1220C3C01045441BAA2E815AECBE /* Headers */,
+				8287FEC55E1BF0CA7AB2B10A162D19F1 /* Sources */,
+				51A2EC608A4CB50AFB0E237B93086791 /* Frameworks */,
+				73C910A9257BDD437F284A65CC806D91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA1127FFC3B00C013AC2DE2A4FF97AD5 /* PBXTargetDependency */,
+				6F1BF052B439D77639CE51615FADE3D7 /* PBXTargetDependency */,
+			);
+			name = "Pods-Example3dsCocoa";
+			productName = "Pods-Example3dsCocoa";
+			productReference = C2626513E4FC6C81A5DAFB5FE21BD22F /* Pods_Example3dsCocoa.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = DC66F0F14B42AE2D26B262B2B1C0CABB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55D410B21DC84B97A82F49A9475B7E5B /* Braspag3Ds */,
+				89AEE3C1FBD492DFF62DDB39E4E4D68D /* CieloSilentOrderPost */,
+				E5B5935BA07EF3CF670939534F775470 /* Pods-Example3dsCocoa */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1DD1AF512A6C7CC6C2EB063909E54BA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73C910A9257BDD437F284A65CC806D91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D42CA7AC9416BA9CE168C044291E43C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		769BEE8B68C98EB959D93D6EF8D60E13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CAA321D63FC6B07CF0458895C5A1D1A /* AirlineData.swift in Sources */,
+				8BB07E2B3213F030365D6CB2A6B9F9D7 /* Api.swift in Sources */,
+				AE7DFB454AD3B5D80CE509F57DFC94C2 /* AuthenticationMethod.swift in Sources */,
+				2C7BDF9174B14B69655F7F2BD9EBD8F4 /* AuthenticationResponse.swift in Sources */,
+				6B6ACC686F9E48859951715F30CE53BF /* AuthenticationStatus.swift in Sources */,
+				F61EC57DBDD726340851E3C555EDB051 /* BasicToken.swift in Sources */,
+				B03EB95B1ACFC875076D3162D2AE49F4 /* BillToData.swift in Sources */,
+				5B5462E41E978D15978E649CE48DC8BC /* Braspag3Ds-dummy.m in Sources */,
+				066F250D80867D2ED9705D1A1B21E806 /* Braspag3ds.swift in Sources */,
+				4AA1FA4329AA20E432725B7D2BEE3F70 /* BraspagApi.swift in Sources */,
+				89BA53165259B2E83850B8FEAA2D1A0B /* BraspagApiClient.swift in Sources */,
+				A4BB96B8D0B696FD6A42B08522D86042 /* BraspagCustomUI.swift in Sources */,
+				AE5516BB5586CB5180DC9CD03421C5D9 /* CallbackStatus.swift in Sources */,
+				30B63910D208EA23103842C230B4D7AF /* CardData.swift in Sources */,
+				18BDA5283A077FE5B3375E864F2AB69B /* CartItemData.swift in Sources */,
+				339F04A5F5236555FF0481786F161D5A /* DecodableExtensions.swift in Sources */,
+				994B0773CE6F928092AC2ABEC773285B /* DeviceData.swift in Sources */,
+				28D6E1BD7290241FFEDBDD616D854CDF /* EncodableExtensions.swift in Sources */,
+				8BEF96531DD3ADE3428923C989156709 /* EnrollAuthentication.swift in Sources */,
+				002956E250B27DD8DB62EB0C96422586 /* EnrollData.swift in Sources */,
+				2F8C80EAF2E36D6B65D4756C78C3160F /* EnrollStatus.swift in Sources */,
+				73E32F8AC2D1DF9DBC83CE0D79D94BCC /* Environment.swift in Sources */,
+				36C3ECA279606779A85423BAB334BBF7 /* MddData.swift in Sources */,
+				4C271BC257A04AEFF5BDA18EE7AF63A1 /* MerchantInfo.swift in Sources */,
+				4EC66AAA8C0CF6BD2C82F360AE3E83E7 /* OptionsData.swift in Sources */,
+				F6E740CD53E53C5C5E7DE11066B0BA91 /* OrderData.swift in Sources */,
+				7926DE2B853D2B840624DCD7C220B33E /* Passenger.swift in Sources */,
+				D110B8797111E114C5B03CC0333D5338 /* PaymentMethod.swift in Sources */,
+				B5F764065CAA19278A8BCB15C52F5EF7 /* ProductCode.swift in Sources */,
+				C42F869FB30EC56A22C8FDE8E355BEE5 /* RecurringData.swift in Sources */,
+				8E1A6761C6F9AD3504380AF2B46DC193 /* RecurringFrequency.swift in Sources */,
+				39818B5BBC676A1D5E227040B82B2C91 /* RequestOauth.swift in Sources */,
+				97FB0BEF42A7B0FC3AC5DC7D9A8B6ABC /* RequestOperations.swift in Sources */,
+				76F3EB33DE7529779A36D341B658327A /* RequestOrder.swift in Sources */,
+				343CF1FB5320538CBC5A1CD3B928B104 /* RequestType.swift in Sources */,
+				E8D964BAABC7EC2334A53C9405B6B334 /* RequestValidate.swift in Sources */,
+				92C711848802F16051912A1014EA1D81 /* ResponseEnroll.swift in Sources */,
+				A7C81C6C73BAB6E92DD0B459BF7FCB1F /* ResponseJwt.swift in Sources */,
+				9D4402B305D2BF8A256E195CD16CBA90 /* ResponseOauthToken.swift in Sources */,
+				A532AA5B215493ECD91989921F0008C5 /* ResponseValidate.swift in Sources */,
+				155DE1280E1CC573C6415ECE001F4695 /* ShippingMethod.swift in Sources */,
+				6BF48BAFD1D7524B511096B3500C660C /* ShipToData.swift in Sources */,
+				899F457AE07FBFCE66237442253D7D22 /* TransactionMode.swift in Sources */,
+				8B234D99E952EB24C0941D1BC058340D /* TravelLeg.swift in Sources */,
+				B2E31D66D9A228A88C0E6680A60E29CC /* UserData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8287FEC55E1BF0CA7AB2B10A162D19F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37B159A89AE0312A766A1D8D464D52B5 /* Pods-Example3dsCocoa-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E5769B40FB5423AB81D525F10D051F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20BCFE725C707016E3EF9BF6F922DE21 /* CieloSilentOrderPost-dummy.m in Sources */,
+				4709EE0FE02A17C922473BFFAB077508 /* DecodableExtensions.swift in Sources */,
+				318A1442F53F6C49D526D395EF679690 /* EncodableExtensions.swift in Sources */,
+				C77452AE9235177672A89DD1487CDB83 /* Enums.swift in Sources */,
+				A5758AB044532BB28AB1481DF2EDB065 /* ErrorResult.swift in Sources */,
+				8B9A05B007E5C3620657208BAE4511C7 /* RemoteDatasource.swift in Sources */,
+				918A8E0BBA09D6CB367A0BB4C982C5B2 /* SilentOrderPost.swift in Sources */,
+				985D174FC9BE4C0D6892FADB40E442A2 /* SuccessResult.swift in Sources */,
+				CE15A3C24C8E56846B254E00A5FC737F /* ValidationResults.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6F1BF052B439D77639CE51615FADE3D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CieloSilentOrderPost;
+			target = 89AEE3C1FBD492DFF62DDB39E4E4D68D /* CieloSilentOrderPost */;
+			targetProxy = 5EE10FC1D359831B9E7A18F96E1839BD /* PBXContainerItemProxy */;
+		};
+		DA1127FFC3B00C013AC2DE2A4FF97AD5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Braspag3Ds;
+			target = 55D410B21DC84B97A82F49A9475B7E5B /* Braspag3Ds */;
+			targetProxy = 8021386F19746617207CE88817B8D4BD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		116E72528324F2ECAAE235A21FFBC105 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23F51BE73D0E4CBB467CF4897709B9B7 /* CieloSilentOrderPost.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CieloSilentOrderPost/CieloSilentOrderPost-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CieloSilentOrderPost/CieloSilentOrderPost-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CieloSilentOrderPost/CieloSilentOrderPost.modulemap";
+				PRODUCT_MODULE_NAME = CieloSilentOrderPost;
+				PRODUCT_NAME = CieloSilentOrderPost;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		916E0404255105F480DC4950B7625F7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		922295702C213C31404C9C12749A6A96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C71C320C2D742D53DA210DEA7AA64517 /* Pods-Example3dsCocoa.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Example3dsCocoa/Pods-Example3dsCocoa-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Example3dsCocoa/Pods-Example3dsCocoa.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A4A546A20AD582624D2DC75AFD2B8E7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A55E305DF57C7AF6E2A81CB6684FBA9 /* Braspag3Ds.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Braspag3Ds/Braspag3Ds-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Braspag3Ds/Braspag3Ds-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Braspag3Ds/Braspag3Ds.modulemap";
+				PRODUCT_MODULE_NAME = Braspag3Ds;
+				PRODUCT_NAME = Braspag3Ds;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BFA5B35A65CCF7C845139C6A6542261B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62DB7979497DC8FCAB27E2A79885D1F4 /* Pods-Example3dsCocoa.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Example3dsCocoa/Pods-Example3dsCocoa-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Example3dsCocoa/Pods-Example3dsCocoa.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F94E765B2BBF47BA092C76E0DFCA1DDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 736AA974EE42F7B2F3138533CFC175F2 /* Braspag3Ds.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Braspag3Ds/Braspag3Ds-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Braspag3Ds/Braspag3Ds-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Braspag3Ds/Braspag3Ds.modulemap";
+				PRODUCT_MODULE_NAME = Braspag3Ds;
+				PRODUCT_NAME = Braspag3Ds;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FFEF85AF6845C30DDBD5F1FD02C7BB23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84DF63B5EA9E66B5D780A4B88111174C /* CieloSilentOrderPost.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CieloSilentOrderPost/CieloSilentOrderPost-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CieloSilentOrderPost/CieloSilentOrderPost-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CieloSilentOrderPost/CieloSilentOrderPost.modulemap";
+				PRODUCT_MODULE_NAME = CieloSilentOrderPost;
+				PRODUCT_NAME = CieloSilentOrderPost;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				916E0404255105F480DC4950B7625F7A /* Debug */,
+				8F17DC3A99F99FBAD606CE6963886315 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		812B425F75B6F593D0F0E614B073B0A5 /* Build configuration list for PBXNativeTarget "Braspag3Ds" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F94E765B2BBF47BA092C76E0DFCA1DDF /* Debug */,
+				A4A546A20AD582624D2DC75AFD2B8E7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95C9C70BC297063FE42F4CB044D423DE /* Build configuration list for PBXNativeTarget "CieloSilentOrderPost" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFEF85AF6845C30DDBD5F1FD02C7BB23 /* Debug */,
+				116E72528324F2ECAAE235A21FFBC105 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEE469513EB4869A0894BD14A77104C3 /* Build configuration list for PBXNativeTarget "Pods-Example3dsCocoa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFA5B35A65CCF7C845139C6A6542261B /* Debug */,
+				922295702C213C31404C9C12749A6A96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

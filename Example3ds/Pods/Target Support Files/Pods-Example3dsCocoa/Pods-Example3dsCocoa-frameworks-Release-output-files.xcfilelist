@@ -1,0 +1,3 @@
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CardinalMobile.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Braspag3Ds.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CieloSilentOrderPost.framework

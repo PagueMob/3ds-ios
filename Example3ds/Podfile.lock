@@ -1,0 +1,20 @@
+PODS:
+  - Braspag3Ds (1.0.6)
+  - CieloSilentOrderPost (1.0.2)
+
+DEPENDENCIES:
+  - Braspag3Ds
+  - CieloSilentOrderPost
+
+SPEC REPOS:
+  trunk:
+    - Braspag3Ds
+    - CieloSilentOrderPost
+
+SPEC CHECKSUMS:
+  Braspag3Ds: a8a89397f34c47d9b02452fd1a928717ae7c6ced
+  CieloSilentOrderPost: 871cc76b8f5de464c4132edfe22ccb8aa7c10090
+
+PODFILE CHECKSUM: e85c6605563e2d89f45f62ade31d2197cdff5466
+
+COCOAPODS: 1.9.1

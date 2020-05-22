@@ -1,0 +1,6 @@
+framework module Pods_Example3dsCocoa {
+  umbrella header "Pods-Example3dsCocoa-umbrella.h"
+
+  export *
+  module * { export * }
+}

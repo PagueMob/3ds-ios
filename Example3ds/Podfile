@@ -6,6 +6,5 @@ target 'Example3dsCocoa' do
   use_frameworks!
 
   pod 'Braspag3Ds'
-  pod 'CieloSilentOrderPost'
 
 end

@@ -1,4 +1,3 @@
 ${PODS_ROOT}/Target Support Files/Pods-Example3dsCocoa/Pods-Example3dsCocoa-frameworks.sh
 ${PODS_ROOT}/Braspag3Ds/Braspag3dsSdk/CardinalMobile.framework
 ${BUILT_PRODUCTS_DIR}/Braspag3Ds/Braspag3Ds.framework
-${BUILT_PRODUCTS_DIR}/CieloSilentOrderPost/CieloSilentOrderPost.framework

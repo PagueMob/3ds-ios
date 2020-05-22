@@ -199,12 +199,10 @@ fi
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${PODS_ROOT}/Braspag3Ds/Braspag3dsSdk/CardinalMobile.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Braspag3Ds/Braspag3Ds.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/CieloSilentOrderPost/CieloSilentOrderPost.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${PODS_ROOT}/Braspag3Ds/Braspag3dsSdk/CardinalMobile.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Braspag3Ds/Braspag3Ds.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/CieloSilentOrderPost/CieloSilentOrderPost.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait

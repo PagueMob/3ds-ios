@@ -6,7 +6,7 @@
 //  Copyright © 2019 jnazario.com. All rights reserved.
 //
 
-public class BillToData {
+public class BillToData: Encodable {
     var customerId: Int?
     var contactName: String
     var phoneNumber: Int

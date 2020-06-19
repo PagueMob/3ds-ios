@@ -6,7 +6,7 @@
 //  Copyright © 2019 jnazario.com. All rights reserved.
 //
 
-public class CartItemData: Codable {
+public class CartItemData: SdkObject, Codable {
     var name, description, sku: String?
     var quantity, unitPrice: Double?
     

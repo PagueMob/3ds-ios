@@ -69,13 +69,13 @@ class EnrollData: Codable, SdkObject {
     var orderCountLast1Year: Int?
     var orderCardAttemptsLast24Hours: Int?
     var orderMarketingOptin: Bool?
-    var orderMarketSource: String?
+    var orderMarketingSource: String?
 
     var userAccountGuest: Bool?
-    var userAccountCreateDate: String?
-    var userAccountChangeDate: String?
+    var userAccountCreatedDate: String?
+    var userAccountChangedDate: String?
     var userAccountPasswordChangedDate: String?
-    var userAccountAuthenticationMethod: Int?
+    var userAccountAuthenticationMethod: String?
     var userAccountAuthenticationProtocol: String?
     var userAccountAuthenticationTimestamp: String?
 
@@ -164,11 +164,11 @@ class EnrollData: Codable, SdkObject {
         orderCountLast1Year = orderData.countLast1Year
         orderCardAttemptsLast24Hours = orderData.cardAttemptsLast24Hours
         orderMarketingOptin = orderData.marketingOptIn
-        orderMarketSource = orderData.marketingSource
+        orderMarketingSource = orderData.marketingSource
         
         userAccountGuest = userData?.guest
-        userAccountCreateDate = userData?.createdDate
-        userAccountChangeDate = userData?.changedDate
+        userAccountCreatedDate = userData?.createdDate
+        userAccountChangedDate = userData?.changedDate
         userAccountPasswordChangedDate = userData?.passwordChangedDate
         userAccountAuthenticationMethod = userData?.authenticationMethod?.rawValue
         userAccountAuthenticationProtocol = userData?.authenticationProtocol

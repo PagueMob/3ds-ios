@@ -6,7 +6,7 @@
 //  Copyright © 2019 jnazario.com. All rights reserved.
 //
 
-public class ShipToData {
+public class ShipToData: Encodable {
     var sameAsBillTo: Bool?
     var addresssee: String?
     var phoneNumber: Int?

@@ -12,7 +12,7 @@ public class BillToData: Encodable {
     var phoneNumber: Int
     var email: String
     var street1: String
-    var street2: String
+    var street2: String?
     var city: String
     var state: String
     var zipCode: String
@@ -22,7 +22,7 @@ public class BillToData: Encodable {
                 phoneNumber: Int,
                 email: String,
                 street1: String,
-                street2: String,
+                street2: String?,
                 city: String,
                 state: String,
                 zipCode: String,

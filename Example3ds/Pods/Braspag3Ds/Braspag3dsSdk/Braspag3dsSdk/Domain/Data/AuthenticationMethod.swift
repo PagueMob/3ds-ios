@@ -6,7 +6,7 @@
 //  Copyright © 2019 jnazario.com. All rights reserved.
 //
 
-public enum AuthenticationMethod: Int {
+public enum AuthenticationMethod: Int, Encodable {
     case noAuthentication = 1
     case ownStoreLogin = 2
     case federatedLogin = 3

@@ -6,7 +6,7 @@
 //  Copyright © 2019 jnazario.com. All rights reserved.
 //
 
-class EnrollData: Codable {
+class EnrollData: Codable, SdkObject {
     var transactionId: String?
     var transactionMode: String?
 

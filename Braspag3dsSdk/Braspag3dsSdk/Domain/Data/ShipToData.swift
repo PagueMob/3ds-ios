@@ -29,7 +29,7 @@ public class ShipToData: Encodable {
                 city: String?,
                 state: String?,
                 zipCode: String?,
-                country: String? = "BR",
+                country: String?,
                 shippingMethod: ShippingMethod?,
                 firstUsageDate: String?) {
         

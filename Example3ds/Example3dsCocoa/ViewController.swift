@@ -81,9 +81,9 @@ class ViewController: UIViewController {
 //                        }
 //                    }
                     
-                    let order = OrderData(orderNumber: "1",
-                                          currencyCode: "BRL",
-                                          totalAmount: 4,
+                    let order = OrderData(orderNumber: "123456",
+                                          currencyCode: "986",
+                                          totalAmount: 1000,
                                           paymentMethod: .debit,
                                           transactionId: nil,
                                           installments: 1,
@@ -96,12 +96,41 @@ class ViewController: UIViewController {
                                           marketingOptIn: nil,
                                           marketingSource: nil,
                                           transactionMode: .mobile,
-                                          merchantUrl: "http://www.iupay.com.br")
-                    let card = CardData(number: "", expirationMonth: "", expirationYear: "")
-                    let billData = BillToData(contactName: "jose", phoneNumber: 999999999, email: "jose@gmsil.com", street1: "rua sei la", street2: "rua se la 2", city: "são paulo", state: "sp", zipCode: "00000000")
+                                          merchantUrl: nil)
+                    let card = CardData(number: "5502095345009957", expirationMonth: "06", expirationYear: "2028")
+                    let billData = BillToData(contactName: "jose", phoneNumber: 999999999, email: "teste@gmsil.com", street1: "rua sei la", street2: "rua se la 2", city: "são paulo", state: "sp", zipCode: "00000000")
 
                     let cartItemData = CartItemData(name: "teste", description: "teste", sku: "3244234", quantity: 1, price: 1)
-
+                    
+                    self.sdk.authenticate(orderData: order,
+                                         cardData: card,
+                                         authOptions: options,
+                                         billToData: billData,
+                                         shipToData: nil,
+                                         cart: [cartItemData],
+                                         deviceData: nil,
+                                         userData: nil,
+                                         airlineData: nil,
+                                         mdd: nil,
+                                         recurringData: nil,
+                                         deviceIpAddress: nil) { (status, authentication, error) in
+    
+                                            print(status)
+                                            print("Authentication: \(authentication?.debugJsonPrint() ?? "nil")")
+                                            print("Deu erro: \(error ?? "não")")
+                            switch status {
+                            case .success:
+                                break
+                            case .unenrolled:
+                                break
+                            case .unsupportedBrand:
+                                break
+                            case .failure:
+                                break
+                            case .error:
+                                break
+                            }
+                        }
                 }
     }
     

@@ -7,7 +7,7 @@
 //
 
 public class BillToData: Encodable {
-    var customerId: Int?
+    var customerId: String?
     var contactName: String
     var phoneNumber: Int
     var email: String
@@ -26,8 +26,8 @@ public class BillToData: Encodable {
                 city: String,
                 state: String,
                 zipCode: String,
-                country: String = "BR",
-                customerId: Int? = nil) {
+                country: String,
+                customerId: String? = nil) {
         
         self.customerId = customerId
         self.contactName = contactName

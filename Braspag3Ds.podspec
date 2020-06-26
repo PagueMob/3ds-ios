@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "Braspag3Ds"
-  spec.version      = "1.0.9"
+  spec.version      = "1.0.10"
   spec.summary      = "Biblioteca de validação de cartões de crédito"
 
   spec.description  = <<-DESC

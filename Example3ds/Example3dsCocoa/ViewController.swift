@@ -89,27 +89,53 @@ class ViewController: UIViewController {
                                           installments: 1,
                                           recurrence: false,
                                           productCode: .goodsPurchase,
-                                          countLast24Hours: nil,
-                                          countLast6Months: nil,
-                                          countLast1Year: nil,
-                                          cardAttemptsLast24Hours: nil,
-                                          marketingOptIn: nil,
-                                          marketingSource: nil,
-                                          transactionMode: .mobile,
-                                          merchantUrl: nil)
-                    let card = CardData(number: "5502095345009957", expirationMonth: "06", expirationYear: "2028")
-                    let billData = BillToData(contactName: "jose", phoneNumber: 999999999, email: "teste@gmsil.com", street1: "rua sei la", street2: "rua se la 2", city: "são paulo", state: "sp", zipCode: "00000000")
+                                          countLast24Hours: 1,
+                                          countLast6Months: 8,
+                                          countLast1Year: 55,
+                                          cardAttemptsLast24Hours: 3,
+                                          marketingOptIn: false,
+                                          marketingSource: "mercadolivre",
+                                          transactionMode: .retail,
+                                          merchantUrl: "https://www.mercadolivre.com.br")
+                    let card = CardData(number: "5502099550418242", expirationMonth: "06", expirationYear: "2028")
+//                    let billData = BillToData(contactName: "jose", phoneNumber: 999999999, email: "teste@gmsil.com", street1: "rua sei la", street2: "rua se la 2", city: "são paulo", state: "sp", zipCode: "00000000")
+                    
+                    let billData = BillToData(contactName: "Mauricio", phoneNumber: 5513996071840, email: "m.f.j@hotmail.com", street1: "Avenida Terezinha Amorim Barbosa, 83", street2: nil, city: "Praia Grande", state: "SP", zipCode: "11725490", country: "BR", customerId: "42756522821")
+                    
+                    let shipData = ShipToData(sameAsToBill: true)
 
-                    let cartItemData = CartItemData(name: "teste", description: "teste", sku: "3244234", quantity: 1, price: 1)
+                    let cartItemData = [
+                        CartItemData(name: "ostarine mk-2866",
+                                     description: "Estimula o aumento da massa muscular e da força",
+                                     sku: "10000000000234",
+                                     quantity: 2,
+                                     price: 450),
+                        CartItemData(name: "ostarine mk-2867",
+                                     description: "Estimula o aumento da massa muscular e da força",
+                                     sku: "10000000000235",
+                                     quantity: 2,
+                                     price: 750)
+                    ]
+                    
+                    let userData = UserData(
+                        guest: true,
+                        createdDate: "2018-08-01",
+                        changedDate: "2018-09-06",
+                        passwordChangedDate: "2018-09-06",
+                        authenticationMethod: AuthenticationMethod.ownStoreLogin,
+                        authenticationProtocol: "oauth",
+                        authenticationTimestamp: "202006251410",
+                        newCustomer: false
+                    )
                     
                     self.sdk.authenticate(orderData: order,
                                          cardData: card,
                                          authOptions: options,
                                          billToData: billData,
-                                         shipToData: nil,
-                                         cart: [cartItemData],
+                                         shipToData: shipData,
+                                         cart: cartItemData,
                                          deviceData: nil,
-                                         userData: nil,
+                                         userData: userData,
                                          airlineData: nil,
                                          mdd: nil,
                                          recurringData: nil,

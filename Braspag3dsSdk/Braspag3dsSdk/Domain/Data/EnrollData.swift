@@ -33,7 +33,7 @@ class EnrollData: Codable, SdkObject {
 
     var cardAddedDate: String?
 
-    var billToCustomerId: Int?
+    var billToCustomerId: String?
     var billToContactName: String?
     var billToPhoneNumber: Int?
     var billToEmail: String?
@@ -44,7 +44,7 @@ class EnrollData: Codable, SdkObject {
     var billToZipCode: String?
     var billToCountry: String?
 
-    var shipToSameAddressAsBillTo: Bool?
+    var shipToSameAsBillTo: Bool?
     var shipToAddressee: String?
     var shipToPhoneNumber: Int?
     var shipToEmail: String?
@@ -141,7 +141,7 @@ class EnrollData: Codable, SdkObject {
         billToZipCode = billToData?.zipCode
         billToCountry = billToData?.country
         
-        shipToSameAddressAsBillTo = shipToData?.sameAsBillTo
+        shipToSameAsBillTo = shipToData?.sameAsBillTo
         shipToAddressee = shipToData?.addresssee
         shipToPhoneNumber = shipToData?.phoneNumber
         shipToEmail = shipToData?.email

@@ -21,17 +21,17 @@ public class ShipToData: Encodable {
     var firstUsageDate: String?
     
     public init(sameAsToBill: Bool?,
-                addresssee: String?,
-                phoneNumber: Int?,
-                email: String?,
-                street1: String?,
-                street2: String?,
-                city: String?,
-                state: String?,
-                zipCode: String?,
-                country: String? = "BR",
-                shippingMethod: ShippingMethod?,
-                firstUsageDate: String?) {
+                addresssee: String? = nil,
+                phoneNumber: Int? = nil,
+                email: String? = nil,
+                street1: String? = nil,
+                street2: String? = nil,
+                city: String? = nil,
+                state: String? = nil,
+                zipCode: String? = nil,
+                country: String? = nil,
+                shippingMethod: ShippingMethod? = nil,
+                firstUsageDate: String? = nil) {
         
         self.sameAsBillTo = sameAsToBill
         self.addresssee = addresssee

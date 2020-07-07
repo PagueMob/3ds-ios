@@ -3,9 +3,7 @@ Link para a documentação do SDK 3DS para iOS: https://developercielo.github.io
 
 ### Versões
 
-Versões disponíveis:
-- [Swift 4+](https://github.com/DeveloperCielo/3ds-ios/releases/tag/1.0.6): funciona até o Xcode 13.1
-- [Swift 5+](https://github.com/DeveloperCielo/3ds-ios/tree/1.0.10): funciona a partir do Xcode 11.4
+- [Swift](https://github.com/DeveloperCielo/3ds-ios/tree/1.0.10): funciona a partir do Xcode 11.4
 
 ### Utilização
 

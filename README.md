@@ -5,7 +5,7 @@ Link para a documentação do SDK 3DS para iOS: https://developercielo.github.io
 
 Versões disponíveis:
 - [Swift 4+](https://github.com/DeveloperCielo/3ds-ios/releases/tag/1.0.6): funciona até o Xcode 13.1
-- [Swift 5+](https://github.com/DeveloperCielo/3ds-ios/releases/tag/1.0.5): funciona a partir do Xcode 11.4
+- [Swift 5+](https://github.com/DeveloperCielo/3ds-ios/tree/1.0.10): funciona a partir do Xcode 11.4
 
 ### Utilização
 
@@ -13,7 +13,7 @@ Versões disponíveis:
 
 Para adicionar o SDK ao seu projeto utilizando Cocoapods basta adicionar o seguinte comando ao seu Podfile:
 ```ruby
-pod 'Braspag3Ds', :git => 'https://github.com/DeveloperCielo/3ds-ios.git', :tag => 'XXXX'
+pod 'Braspag3Ds'
 ```
 > Na tag você pode adicionar o número da versão que melhor se adequa ao seu projeto, conforme descrito na seção **Versões** acima.
 

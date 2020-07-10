@@ -97,10 +97,10 @@ class ViewController: UIViewController {
                                           marketingSource: "mercadolivre",
                                           transactionMode: nil,
                                           merchantUrl: "https://www.mercadolivre.com.br")
-                    let card = CardData(number: "5502099550418242", expirationMonth: "06", expirationYear: "2028")
+                    let card = CardData(number: "", expirationMonth: "", expirationYear: "")
 //                    let billData = BillToData(contactName: "jose", phoneNumber: 999999999, email: "teste@gmsil.com", street1: "rua sei la", street2: "rua se la 2", city: "são paulo", state: "sp", zipCode: "00000000")
                     
-                    let billData = BillToData(contactName: "Mauricio", phoneNumber: 5513996071840, email: "m.f.j@hotmail.com", street1: "Avenida Terezinha Amorim Barbosa, 83", street2: nil, city: "Praia Grande", state: "SP", zipCode: "11725490", country: "BR", customerId: "42756522821")
+                    let billData = BillToData(contactName: "", phoneNumber: 0, email: "", street1: "", street2: nil, city: "", state: "", zipCode: "", country: "BR", customerId: "42756522821")
                     
                     let shipData = ShipToData(sameAsToBill: true)
 

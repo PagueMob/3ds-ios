@@ -95,7 +95,7 @@ class ViewController: UIViewController {
                                           cardAttemptsLast24Hours: 3,
                                           marketingOptIn: false,
                                           marketingSource: "mercadolivre",
-                                          transactionMode: .retail,
+                                          transactionMode: nil,
                                           merchantUrl: "https://www.mercadolivre.com.br")
                     let card = CardData(number: "5502099550418242", expirationMonth: "06", expirationYear: "2028")
 //                    let billData = BillToData(contactName: "jose", phoneNumber: 999999999, email: "teste@gmsil.com", street1: "rua sei la", street2: "rua se la 2", city: "são paulo", state: "sp", zipCode: "00000000")

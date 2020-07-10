@@ -172,9 +172,9 @@ class ViewController: UIViewController {
         request.httpMethod = "POST"
         request.setValue("application/json", forHTTPHeaderField: "Content-Type")
         
-        let params = ["EstablishmentCode": "1114772094",
-        "MerchantName": "NA ORLA TECNOLOGIA LTDA",
-        "MCC": "7392"]
+        let params = ["EstablishmentCode": "",
+        "MerchantName": "",
+        "MCC": ""]
         
         guard let postData = try? JSONSerialization.data(withJSONObject: params, options: []) else {
             completion(nil)
@@ -184,7 +184,7 @@ class ViewController: UIViewController {
         request.httpBody = postData as Data
         
         // Sandbox
-        let token = "MjMzMGVkNmYtMTlmMy00ZDI5LTk1MjYtYzQ1MTZkNjBmYTZhOlF5bldGWGp6UWNmM2JlaW1SZ2JDM2lnaHNnZVFsMGRZZEFDRVo4N05adzg9" //swiftlint:disable:this line_length
+        let token = "" //swiftlint:disable:this line_length
         
         request.setValue("Basic \(token)", forHTTPHeaderField: "Authorization")
         

@@ -152,7 +152,7 @@ public class Braspag3ds: Braspag3dsProtocol {
         }
     }
     
-    private func braspagValidate(completion: @escaping (Bool, String?) -> Void) {
+    private func braspagValidate(completion: @escaping (Bool, EnrollAuthentication?) -> Void) {
         let request = RequestValidate(orderNumber: enrollData.orderNumber,
                                       currency: enrollData.currency,
                                       totalAmount: enrollData.totalAmount,
@@ -165,7 +165,7 @@ public class Braspag3ds: Braspag3dsProtocol {
                                       transactionId: enrollResponse.authenticationTransactionId ?? "")
         apiSdk.validate(request: request) { (validateResponse, error) in
             guard error == nil else {
-                completion(false, error)
+                completion(false, EnrollAuthentication(returnCode: "MPI900", returnMessage: "An error has occurred: \(error!)"))
                 return
             }
 
@@ -174,7 +174,7 @@ public class Braspag3ds: Braspag3dsProtocol {
                 return
             }
             
-            completion(response.status == AuthenticationStatus.authenticated.rawValue, nil)
+            completion(true, response)
         }
     }
     
@@ -202,9 +202,9 @@ public class Braspag3ds: Braspag3dsProtocol {
         
         switch status {
         case .validationNeeded:
-            strongSelf.braspagValidate(completion: {[weak self] (success, error) in
+            strongSelf.braspagValidate(completion: {[weak self] (success, authenticate) in
                 guard success else {
-                    self?.onCompletion(CallbackStatus.error, nil, "validate failed: \(error ?? "")")
+                    self?.onCompletion(CallbackStatus.error, nil, "validate failed: \(authenticate?.returnMessage ?? "")")
                     return
                 }
                 
@@ -294,22 +294,16 @@ extension Braspag3ds: CardinalValidationDelegate {
         switch validateResponse.actionCode {
         case .timeout: break
             
-        case .success, .noAction, .failure:
+        case .success, .noAction, .failure, .error:
             
-            braspagValidate {[weak self] (success, error) in
+            braspagValidate {[weak self] (success, authenticate) in
                 guard success else {
-                    self?.onCompletion(CallbackStatus.error, nil, "validte failed: \(error ?? "")")
+                    self?.onCompletion(CallbackStatus.error, nil, "validte failed: \(authenticate?.returnMessage ?? "")")
                     return
                 }
-                let auth = self?.enrollResponse.authentication?.toAuthResponse()
+                let auth = authenticate?.toAuthResponse()
                 self?.onCompletion(CallbackStatus.success, auth, nil)
             }
-            
-        case .error:
-            let auth = enrollResponse.authentication?.toAuthResponse()
-            print("EnrollResponse:\n\(enrollResponse.debugJsonPrint())")
-            print(auth.debugJsonPrint())
-            onCompletion(CallbackStatus.error, auth, validateResponse.errorDescription)
             
         case .cancel:
             onCompletion(CallbackStatus.error, nil, "validateResponse.validationCode = cancel")

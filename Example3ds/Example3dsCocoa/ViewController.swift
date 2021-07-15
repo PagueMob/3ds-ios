@@ -184,7 +184,7 @@ class ViewController: UIViewController {
         request.httpBody = postData as Data
         
         // Sandbox
-        let token = "ZGJhM2E4ZGItZmE1NC00MGUwLThiYWItN2JmYjliNmYyZTJlOkQvaWxSc2ZvcUhsU1VDaHdBTW5seUtkRE5kN0ZNc003Y1Uvdm8wMlJFYWc9" //swiftlint:disable:this line_length
+        let token = "ZGJhM2E4ZGItZmE1NC00MGUwLThiYWItN2JmYjliNmYyZTJlOkQvaWxSc2ZvcUhsU1VDaHdBTW5seUtkRE5kN0ZNc003Y1Uvdm8wMlJFYWc9" 
         
         request.setValue("Basic \(token)", forHTTPHeaderField: "Authorization")
         

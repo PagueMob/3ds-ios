@@ -3,7 +3,7 @@ Link para a documentação do SDK 3DS para iOS: https://developercielo.github.io
 
 ### Versões
 
-- [Swift 4+](https://github.com/DeveloperCielo/3ds-ios/tree/1.0.11): funciona com Xcode anterior ao 11.4
+- [Swift 4+](https://github.com/DeveloperCielo/3ds-ios/tree/1.0.14): funciona com Xcode anterior ao 11.4
 - [Swift 5+](https://github.com/DeveloperCielo/3ds-ios/tree/1.0.10): funciona a partir do Xcode 11.4
 
 ### Utilização
@@ -18,7 +18,7 @@ pod 'Braspag3Ds'
 
 
 // Swift 4+
-pod 'Braspag3DS', :git => 'https://github.com/DeveloperCielo/3ds-ios.git', :tag => '1.0.11'
+pod 'Braspag3DS', :git => 'https://github.com/DeveloperCielo/3ds-ios.git', :tag => '1.0.14'
 ```
 > Na tag você pode adicionar o número da versão que melhor se adequa ao seu projeto, conforme descrito na seção **Versões** acima.
 

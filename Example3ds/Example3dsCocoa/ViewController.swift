@@ -26,7 +26,7 @@ class ViewController: UIViewController {
                 getAccessToken { (result) in
                     guard let accessToken = result else { return }
                     
-                    self.sdk = Braspag3ds(accessToken: accessToken, environment: .production)
+                    self.sdk = Braspag3ds(accessToken: accessToken, environment: .sandbox)
                     
 //                    let order = OrderData(orderNumber: "123456",
 //                                          currencyCode: "986",
@@ -97,10 +97,10 @@ class ViewController: UIViewController {
                                           marketingSource: "mercadolivre",
                                           transactionMode: nil,
                                           merchantUrl: "https://www.mercadolivre.com.br")
-                    let card = CardData(number: "", expirationMonth: "", expirationYear: "")
-//                    let billData = BillToData(contactName: "jose", phoneNumber: 999999999, email: "teste@gmsil.com", street1: "rua sei la", street2: "rua se la 2", city: "são paulo", state: "sp", zipCode: "00000000")
+                    let card = CardData(number: "4000000000001091", expirationMonth: "10", expirationYear: "26")
+                    let billData = BillToData(contactName: "joao", phoneNumber: 999999999, email: "teste@gmail.com", street1: "rua dois la", street2: "rua se la 2", city: "são paulo", state: "sp", zipCode: "00000000")
                     
-                    let billData = BillToData(contactName: "", phoneNumber: 0, email: "", street1: "", street2: nil, city: "", state: "", zipCode: "", country: "BR", customerId: "42756522821")
+//                    let billData = BillToData(contactName: "", phoneNumber: 0, email: "", street1: "", street2: nil, city: "", state: "", zipCode: "", country: "BR", customerId: "42756522821")
                     
                     let shipData = ShipToData(sameAsToBill: true)
 
@@ -164,7 +164,7 @@ class ViewController: UIViewController {
         let config: URLSessionConfiguration = URLSessionConfiguration.default
         let session: URLSession = URLSession(configuration: config)
         
-        guard let urlRequest: URL = URL(string: "https://mpi.braspag.com.br/v2/auth/token") else {
+        guard let urlRequest: URL = URL(string: "https://mpisandbox.braspag.com.br/v2/auth/token") else {
             completion(nil)
             return
         }
@@ -172,9 +172,9 @@ class ViewController: UIViewController {
         request.httpMethod = "POST"
         request.setValue("application/json", forHTTPHeaderField: "Content-Type")
         
-        let params = ["EstablishmentCode": "",
-        "MerchantName": "",
-        "MCC": ""]
+        let params = ["EstablishmentCode": "1006993069",
+                      "MerchantName": "Maurici's store",
+                      "MCC": "5912"]
         
         guard let postData = try? JSONSerialization.data(withJSONObject: params, options: []) else {
             completion(nil)
@@ -184,7 +184,7 @@ class ViewController: UIViewController {
         request.httpBody = postData as Data
         
         // Sandbox
-        let token = "" //swiftlint:disable:this line_length
+        let token = "ZGJhM2E4ZGItZmE1NC00MGUwLThiYWItN2JmYjliNmYyZTJlOkQvaWxSc2ZvcUhsU1VDaHdBTW5seUtkRE5kN0ZNc003Y1Uvdm8wMlJFYWc9" //swiftlint:disable:this line_length
         
         request.setValue("Basic \(token)", forHTTPHeaderField: "Authorization")
         

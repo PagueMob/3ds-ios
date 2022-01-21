@@ -43,7 +43,7 @@ class Api: ApiProtocol {
         let credentials = parameters?["credentials"]
         urlRequest?.allHTTPHeaderFields = [
             "Authorization": "Basic \(credentials ?? "")",
-            "x-sdk-version": "3ds-iOS@1.0.14"
+            "x-sdk-version": "3ds-iOS@1.0.15"
         ]
         
         if let myRequest = urlRequest {

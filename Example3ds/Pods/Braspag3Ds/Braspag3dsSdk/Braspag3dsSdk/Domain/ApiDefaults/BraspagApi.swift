@@ -17,7 +17,7 @@ protocol BraspagApiProtocol {
                 completion: @escaping (_ enrollResponse: ResponseEnroll?, _ error: String?) -> Void)
     
     func validate(request: RequestValidate,
-                  completion: @escaping (_ validateResponse: ResponseValidate?, _ error: String?) -> Void)
+                  completion: @escaping (_ validateResponse: EnrollAuthentication?, _ error: String?) -> Void)
 }
 
 class BraspagApi: BraspagApiProtocol {
@@ -53,7 +53,7 @@ class BraspagApi: BraspagApiProtocol {
     }
     
     func validate(request: RequestValidate,
-                  completion: @escaping (_ validateResponse: ResponseValidate?, _ error: String?) -> Void) {
+                  completion: @escaping (_ validateResponse: EnrollAuthentication?, _ error: String?) -> Void) {
         Api.shared.request(url: client.validate(),
                            method: RequestType.POST,
                            with: request.toDict(),

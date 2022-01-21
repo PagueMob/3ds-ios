@@ -20,16 +20,16 @@ class EnrollAuthentication: Codable {
     var returnCode: String
     var returnMessage: String
     
-    init(directoryServerTransactionId: String?,
-         xId: String?,
-         eci: String?,
-         eciRaw: String?,
-         cavv: String?,
-         paresStatus: String?,
-         authenticationResult: String?,
-         authenticationStatusMessage: String?,
-         version: String?,
-         status: AuthenticationStatus?,
+    init(directoryServerTransactionId: String? = nil,
+         xId: String? = nil,
+         eci: String? = nil,
+         eciRaw: String? = nil,
+         cavv: String? = nil,
+         paresStatus: String? = nil,
+         authenticationResult: String? = nil,
+         authenticationStatusMessage: String? = nil,
+         version: String? = nil,
+         status: AuthenticationStatus? = nil,
          returnCode: String,
          returnMessage: String) {
         

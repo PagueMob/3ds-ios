@@ -28,59 +28,7 @@ class ViewController: UIViewController {
                     
                     self.sdk = Braspag3ds(accessToken: accessToken, environment: .sandbox)
                     
-//                    let order = OrderData(orderNumber: "123456",
-//                                          currencyCode: "986",
-//                                          totalAmount: 100,
-//                                          paymentMethod: .credit,
-//                                          transactionId: nil,
-//                                          installments: 0,
-//                                          recurrence: false,
-//                                          productCode: .services,
-//                                          countLast24Hours: nil,
-//                                          countLast6Months: nil,
-//                                          countLast1Year: nil,
-//                                          cardAttemptsLast24Hours: nil,
-//                                          marketingOptIn: nil,
-//                                          marketingSource: nil,
-//                                          transactionMode: .mobile,
-//                                          merchantUrl: nil)
-//
-//                    let card = CardData(number: "5292050201136679",
-//                                        expirationMonth: "11",
-//                                        expirationYear: "22")
-                    
                     let options = OptionsData()
-                    
-//                    self.sdk.authenticate(orderData: order,
-//                                     cardData: card,
-//                                     authOptions: options,
-//                                     billToData: nil,
-//                                     shipToData: nil,
-//                                     cart: nil,
-//                                     deviceData: nil,
-//                                     userData: nil,
-//                                     airlineData: nil,
-//                                     mdd: nil,
-//                                     recurringData: nil,
-//                                     deviceIpAddress: nil) { (status, authentication, error) in
-//
-//                                        print(status)
-//                                        print("Authentication: \(authentication?.debugJsonPrint() ?? "nil")")
-//                                        print("Deu erro: \(error ?? "não")")
-//                        switch status {
-//                        case .success:
-//                            break
-//                        case .unenrolled:
-//                            break
-//                        case .unsupportedBrand:
-//                            break
-//                        case .failure:
-//                            break
-//                        case .error:
-//                            break
-//                        }
-//                    }
-                    
                     let order = OrderData(orderNumber: "123456",
                                           currencyCode: "986",
                                           totalAmount: 1000,
@@ -97,8 +45,8 @@ class ViewController: UIViewController {
                                           marketingSource: "mercadolivre",
                                           transactionMode: nil,
                                           merchantUrl: "https://www.mercadolivre.com.br")
-                    let card = CardData(number: "4000000000001091", expirationMonth: "10", expirationYear: "26")
-                    let billData = BillToData(contactName: "joao", phoneNumber: 999999999, email: "teste@gmail.com", street1: "rua dois la", street2: "rua se la 2", city: "são paulo", state: "sp", zipCode: "00000000")
+                    let card = CardData(number: "4000000000001109", expirationMonth: "10", expirationYear: "26", cardAlias: nil, defaultCard: nil)
+                    let billData = BillToData(contactName: "joao", phoneNumber: 999999999, email: "teste@gmail.com", street1: "rua dois la", street2: "rua se la 2", city: "são paulo", state: "sp", zipCode: "00000000", country: "BR")
                     
 //                    let billData = BillToData(contactName: "", phoneNumber: 0, email: "", street1: "", street2: nil, city: "", state: "", zipCode: "", country: "BR", customerId: "42756522821")
                     
@@ -141,7 +89,7 @@ class ViewController: UIViewController {
                                          recurringData: nil,
                                          deviceIpAddress: nil) { (status, authentication, error) in
     
-                                            print(status)
+                                            print("Status: \(status)")
                                             print("Authentication: \(authentication?.debugJsonPrint() ?? "nil")")
                                             print("Deu erro: \(error ?? "não")")
                             switch status {

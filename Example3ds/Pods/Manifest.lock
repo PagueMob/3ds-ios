@@ -1,5 +1,5 @@
 PODS:
-  - Braspag3Ds (1.0.9)
+  - Braspag3Ds (1.0.13)
 
 DEPENDENCIES:
   - Braspag3Ds
@@ -9,8 +9,8 @@ SPEC REPOS:
     - Braspag3Ds
 
 SPEC CHECKSUMS:
-  Braspag3Ds: fc90975de75aebcab0bfc8d50b96c80c1b81f087
+  Braspag3Ds: af1d012a64ae4885e3a18362dfe981445a340312
 
 PODFILE CHECKSUM: d0ccdd0d47c64366fc55b8435a0d80ff4560b771
 
-COCOAPODS: 1.9.3
+COCOAPODS: 1.11.0

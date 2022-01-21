@@ -14,8 +14,8 @@ public class CardData: Encodable {
     public init(number: String,
                 expirationMonth: String,
                 expirationYear: String,
-                cardAlias: String? = "",
-                defaultCard: Bool? = false) {
+                cardAlias: String?,
+                defaultCard: Bool?) {
         self.number = number
         self.expirationMonth = expirationMonth
         self.expirationYear = expirationYear

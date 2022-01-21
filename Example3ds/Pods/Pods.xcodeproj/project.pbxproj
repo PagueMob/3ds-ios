@@ -7,61 +7,61 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		002956E250B27DD8DB62EB0C96422586 /* EnrollData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7F5F5BDF0B8109A4C9ADC5D13FBD45 /* EnrollData.swift */; };
-		066F250D80867D2ED9705D1A1B21E806 /* Braspag3ds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E1CC9946107FA363A99B916542744D /* Braspag3ds.swift */; };
-		155DE1280E1CC573C6415ECE001F4695 /* ShippingMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E4D671422D0F062D00C5DE43473B49 /* ShippingMethod.swift */; };
-		18BDA5283A077FE5B3375E864F2AB69B /* CartItemData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFC0AFF85CA643D6DF87B17B345C1C6 /* CartItemData.swift */; };
-		21B8C0158828E7D9474BB38CAA9CA2A6 /* Pods-Example3dsCocoa-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BF6F39312D608C057EA44E5F51426C68 /* Pods-Example3dsCocoa-dummy.m */; };
-		28D6E1BD7290241FFEDBDD616D854CDF /* EncodableExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403FC87394BE898C9453BC0D6859DD7E /* EncodableExtensions.swift */; };
-		2B7ECFE188897FDCFE8FBFDED73CEF2F /* Pods-Example3dsCocoa-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C9D0C8672692C892A7EF3B66106B74B /* Pods-Example3dsCocoa-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2C7BDF9174B14B69655F7F2BD9EBD8F4 /* AuthenticationResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09FEF8453DFCC33B52DCE22A93209B6 /* AuthenticationResponse.swift */; };
-		2DB0F3A58254AF42C9B7CFF44729CE31 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		2F8C80EAF2E36D6B65D4756C78C3160F /* EnrollStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207AD8A24BFD32E425AB3788740C2B12 /* EnrollStatus.swift */; };
-		30B63910D208EA23103842C230B4D7AF /* CardData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A69DDADEB1C6D460EE7DFA4E6A568A /* CardData.swift */; };
-		339F04A5F5236555FF0481786F161D5A /* DecodableExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 108E628F2D168B2E43B507D713142D98 /* DecodableExtensions.swift */; };
-		343CF1FB5320538CBC5A1CD3B928B104 /* RequestType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E375144B61C1BBABBD39311BB38D44 /* RequestType.swift */; };
-		36C3ECA279606779A85423BAB334BBF7 /* MddData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151C4106FCDDF78CDA2A0C5B37DDAC04 /* MddData.swift */; };
-		39818B5BBC676A1D5E227040B82B2C91 /* RequestOauth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5255C70A2EF81EAFE0DEB5AE0EAFC995 /* RequestOauth.swift */; };
-		4AA1FA4329AA20E432725B7D2BEE3F70 /* BraspagApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89EE97A5B8FA5B8BB2EF898D9AC8B8EF /* BraspagApi.swift */; };
-		4C271BC257A04AEFF5BDA18EE7AF63A1 /* MerchantInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF809A8F5FDC29BE6D1AB611488A366 /* MerchantInfo.swift */; };
-		4EC66AAA8C0CF6BD2C82F360AE3E83E7 /* OptionsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA53E38F55260E771179D6859395E5D /* OptionsData.swift */; };
-		5B5462E41E978D15978E649CE48DC8BC /* Braspag3Ds-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FE5A7BAB897FF50564783F01979DD930 /* Braspag3Ds-dummy.m */; };
-		6B6ACC686F9E48859951715F30CE53BF /* AuthenticationStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E658F679F5F2058E119E54A223BEAD3 /* AuthenticationStatus.swift */; };
-		6BF48BAFD1D7524B511096B3500C660C /* ShipToData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F338600AE23EDE22AB023CE12F3BC3FE /* ShipToData.swift */; };
-		6D2B079202BABE9F27A389CDA300C713 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		73E32F8AC2D1DF9DBC83CE0D79D94BCC /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD5269333224EBDC887CE71E9DDB148 /* Environment.swift */; };
-		76F3EB33DE7529779A36D341B658327A /* RequestOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7442B50738569D227C7856E08BF73834 /* RequestOrder.swift */; };
-		7926DE2B853D2B840624DCD7C220B33E /* Passenger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CB1B49C75A937F796AD449855E8998 /* Passenger.swift */; };
-		899F457AE07FBFCE66237442253D7D22 /* TransactionMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41B5DA4B64818A3604F3E69A1AC032A /* TransactionMode.swift */; };
-		89BA53165259B2E83850B8FEAA2D1A0B /* BraspagApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F914610ECA8F5EF0346D897F1E36553 /* BraspagApiClient.swift */; };
-		8B234D99E952EB24C0941D1BC058340D /* TravelLeg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2EF89B82BE4723C5D6CAD99CBBB9C2 /* TravelLeg.swift */; };
-		8BB07E2B3213F030365D6CB2A6B9F9D7 /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56A50E626C27EA88D7592591D30F9E3 /* Api.swift */; };
-		8BEF96531DD3ADE3428923C989156709 /* EnrollAuthentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9590B73FFCC0DF4F8C2ED7AA685C2F6 /* EnrollAuthentication.swift */; };
-		8CAA321D63FC6B07CF0458895C5A1D1A /* AirlineData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30F8DAF131B84FAD82BB193DF69A6AA /* AirlineData.swift */; };
-		8E1A6761C6F9AD3504380AF2B46DC193 /* RecurringFrequency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9022B9CA3F6D57EDCA8C3B023D859C39 /* RecurringFrequency.swift */; };
-		92C711848802F16051912A1014EA1D81 /* ResponseEnroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE0D519DD9C063205C940E421F4C35C /* ResponseEnroll.swift */; };
-		97FB0BEF42A7B0FC3AC5DC7D9A8B6ABC /* RequestOperations.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4D82732E61B054C3124B7F3C2B49CA /* RequestOperations.swift */; };
-		994B0773CE6F928092AC2ABEC773285B /* DeviceData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA097A2A55000F45D0A5480C749619C0 /* DeviceData.swift */; };
-		9D4402B305D2BF8A256E195CD16CBA90 /* ResponseOauthToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3901C1919B36A7B7470B174989EB4D2D /* ResponseOauthToken.swift */; };
-		A4BB96B8D0B696FD6A42B08522D86042 /* BraspagCustomUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4509308E677AFFD97214B5628F8C8530 /* BraspagCustomUI.swift */; };
-		A532AA5B215493ECD91989921F0008C5 /* ResponseValidate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B68D134FBD7FB6B795F796743B9EF45 /* ResponseValidate.swift */; };
-		A7C81C6C73BAB6E92DD0B459BF7FCB1F /* ResponseJwt.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA656136B1BDFE861E18218B2205918 /* ResponseJwt.swift */; };
-		AE5516BB5586CB5180DC9CD03421C5D9 /* CallbackStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9D458FF1EA5F07E7CBFCE640C67028 /* CallbackStatus.swift */; };
-		AE7DFB454AD3B5D80CE509F57DFC94C2 /* AuthenticationMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE87A4898D54175960BAFD12284EEFCD /* AuthenticationMethod.swift */; };
-		B03EB95B1ACFC875076D3162D2AE49F4 /* BillToData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2738CD1A9E7C8358A7DB7FD1DE7896BF /* BillToData.swift */; };
-		B2E31D66D9A228A88C0E6680A60E29CC /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A460770358780C6540397F090BD369 /* UserData.swift */; };
-		B5F764065CAA19278A8BCB15C52F5EF7 /* ProductCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3969BB77C33DF4DBF73C6A399C7C4594 /* ProductCode.swift */; };
-		C42F869FB30EC56A22C8FDE8E355BEE5 /* RecurringData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8BD2566741915CC69CEE5F183BA93BD /* RecurringData.swift */; };
-		D110B8797111E114C5B03CC0333D5338 /* PaymentMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE933025F0881F067C9061E232FE0CF /* PaymentMethod.swift */; };
-		D192D37E9BD47B69E2A86653CEF44F49 /* Braspag3Ds-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B08618B1D7851BA7B0A46CADB9EEF06D /* Braspag3Ds-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E8D964BAABC7EC2334A53C9405B6B334 /* RequestValidate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5B6365A212644A16372B2592B07244 /* RequestValidate.swift */; };
-		EAEC6D1650665482CB8B3926CED18B1D /* Braspag3dsSdk.h in Headers */ = {isa = PBXBuildFile; fileRef = 0264E29823422C3182C6F35792CF3C52 /* Braspag3dsSdk.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F61EC57DBDD726340851E3C555EDB051 /* BasicToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43276A8181132B36D57D7077D5AFD66 /* BasicToken.swift */; };
-		F6E740CD53E53C5C5E7DE11066B0BA91 /* OrderData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004F8C8B969D82B799687F9A83B1A8E4 /* OrderData.swift */; };
+		01F51AD223D060224A19E9BB7BC1A9CA /* BasicToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43276A8181132B36D57D7077D5AFD66 /* BasicToken.swift */; };
+		0A7224D405DDD41DF985E75554271BE1 /* Passenger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CB1B49C75A937F796AD449855E8998 /* Passenger.swift */; };
+		0F5BA32A2AE44BAA7E61E319E38B8AC7 /* ProductCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3969BB77C33DF4DBF73C6A399C7C4594 /* ProductCode.swift */; };
+		0F74F091A94D6B739CB907AC6EFB8A4A /* ShippingMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E4D671422D0F062D00C5DE43473B49 /* ShippingMethod.swift */; };
+		1D0BC957CF4E4846D45003B3E3D1B87B /* ResponseEnroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE0D519DD9C063205C940E421F4C35C /* ResponseEnroll.swift */; };
+		24CEDD9BBA8107332827F441D97FBDA6 /* EnrollStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207AD8A24BFD32E425AB3788740C2B12 /* EnrollStatus.swift */; };
+		295B95CA9FE4E3E5F2325F1605DF5B59 /* Braspag3Ds-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B08618B1D7851BA7B0A46CADB9EEF06D /* Braspag3Ds-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36FA66D4FF63DB1C5A12988A3624C372 /* PaymentMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE933025F0881F067C9061E232FE0CF /* PaymentMethod.swift */; };
+		3FBABAD8F939147A871A319211C8EBC5 /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD5269333224EBDC887CE71E9DDB148 /* Environment.swift */; };
+		4AF693259A507B3C7EFFB0CEC35A88F2 /* Braspag3ds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E1CC9946107FA363A99B916542744D /* Braspag3ds.swift */; };
+		4E75AB2F45C35A220A5CA5D86BCB8188 /* Braspag3dsSdk.h in Headers */ = {isa = PBXBuildFile; fileRef = 0264E29823422C3182C6F35792CF3C52 /* Braspag3dsSdk.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5235C4C5227388ED736E45C72D4C647A /* TravelLeg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2EF89B82BE4723C5D6CAD99CBBB9C2 /* TravelLeg.swift */; };
+		5284D4D8B34DA741568434E5F0D96EA3 /* AuthenticationMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE87A4898D54175960BAFD12284EEFCD /* AuthenticationMethod.swift */; };
+		54EFD400BA07AE9232FB2FB89B2BF411 /* RequestOauth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5255C70A2EF81EAFE0DEB5AE0EAFC995 /* RequestOauth.swift */; };
+		5583724ACC42F54BAF8A548C39812D59 /* ShipToData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F338600AE23EDE22AB023CE12F3BC3FE /* ShipToData.swift */; };
+		5FDE0892CC67BF1E4ACF5E501EDBD2F3 /* CallbackStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9D458FF1EA5F07E7CBFCE640C67028 /* CallbackStatus.swift */; };
+		6661BC1D9BE86FD9A904647696C0436F /* DeviceData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA097A2A55000F45D0A5480C749619C0 /* DeviceData.swift */; };
+		678E7C403D3896C2C539FE42FB32BC23 /* TransactionMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41B5DA4B64818A3604F3E69A1AC032A /* TransactionMode.swift */; };
+		72AA78B949F029B0CCF1980959476F37 /* RequestValidate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5B6365A212644A16372B2592B07244 /* RequestValidate.swift */; };
+		7536336300B20E2B5258A8EF9F9B76A1 /* BraspagCustomUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4509308E677AFFD97214B5628F8C8530 /* BraspagCustomUI.swift */; };
+		7E87E0A1F6A0FB05F1ED3598D9D46FF7 /* AirlineData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30F8DAF131B84FAD82BB193DF69A6AA /* AirlineData.swift */; };
+		81F0194F2941725EA7868F0B6DF23BC1 /* OrderData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004F8C8B969D82B799687F9A83B1A8E4 /* OrderData.swift */; };
+		8950FE795A777A956D04AE7B3D6D5D96 /* RecurringData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8BD2566741915CC69CEE5F183BA93BD /* RecurringData.swift */; };
+		8B8B003C7850AF56860FB34E47DE87AE /* Pods-Example3dsCocoa-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BF6F39312D608C057EA44E5F51426C68 /* Pods-Example3dsCocoa-dummy.m */; };
+		8BEB7FD95DD71764F033CBBD91EF01B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		8D3C0B677FE46A38CB33081A9A4B41CA /* EncodableExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403FC87394BE898C9453BC0D6859DD7E /* EncodableExtensions.swift */; };
+		8E03B249AC9AE0B4B39AD1323E9FC66C /* ResponseOauthToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3901C1919B36A7B7470B174989EB4D2D /* ResponseOauthToken.swift */; };
+		8E97CEBD1CDB340F80BAFF5C8F185F39 /* OptionsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA53E38F55260E771179D6859395E5D /* OptionsData.swift */; };
+		93B877A90E22A7946AEDAA6224530E57 /* BraspagApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F914610ECA8F5EF0346D897F1E36553 /* BraspagApiClient.swift */; };
+		9FCDDF569AF7031D81A0B136CA8EAABB /* BraspagApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89EE97A5B8FA5B8BB2EF898D9AC8B8EF /* BraspagApi.swift */; };
+		A3BAAA1037642EE86C0242822293CB8A /* Braspag3Ds-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FE5A7BAB897FF50564783F01979DD930 /* Braspag3Ds-dummy.m */; };
+		ADAE1AE7AE42DF34081AFAA5EA4AD331 /* DecodableExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 108E628F2D168B2E43B507D713142D98 /* DecodableExtensions.swift */; };
+		AE62F2DEE13764FD243DDD5989FF4C12 /* BillToData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2738CD1A9E7C8358A7DB7FD1DE7896BF /* BillToData.swift */; };
+		B65B0BA96E790D72BA9F79C8A235189F /* EnrollAuthentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9590B73FFCC0DF4F8C2ED7AA685C2F6 /* EnrollAuthentication.swift */; };
+		B90E2962F291319F2D583C0CDB080785 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		BEDA52CBC9D0590FD4257409677953A9 /* CartItemData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFC0AFF85CA643D6DF87B17B345C1C6 /* CartItemData.swift */; };
+		C7AC280ECA3FF0E402B2E20137647328 /* AuthenticationResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09FEF8453DFCC33B52DCE22A93209B6 /* AuthenticationResponse.swift */; };
+		CABCBCC2E9EBB9A0888F7BCA5BFF7E1D /* ResponseJwt.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA656136B1BDFE861E18218B2205918 /* ResponseJwt.swift */; };
+		CCC3C74AD3662B67E860DC8339D9C9B6 /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56A50E626C27EA88D7592591D30F9E3 /* Api.swift */; };
+		CCD77DF44C6D2C84CD482D75034DC8BA /* AuthenticationStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E658F679F5F2058E119E54A223BEAD3 /* AuthenticationStatus.swift */; };
+		D8C6539ED60A371840C0672255ED5092 /* MerchantInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF809A8F5FDC29BE6D1AB611488A366 /* MerchantInfo.swift */; };
+		DB687E72779872BE16E60D834874634E /* RecurringFrequency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9022B9CA3F6D57EDCA8C3B023D859C39 /* RecurringFrequency.swift */; };
+		DFBABEA3C428B1B05F2C87442215FA60 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A460770358780C6540397F090BD369 /* UserData.swift */; };
+		E28E79B4A28C2FA8A9C683AF89A29E3F /* MddData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151C4106FCDDF78CDA2A0C5B37DDAC04 /* MddData.swift */; };
+		E380E9899E552AE059F54F7DC73C850E /* ResponseValidate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B68D134FBD7FB6B795F796743B9EF45 /* ResponseValidate.swift */; };
+		ED6F47B560AB93C5B51401A1051BD7CE /* EnrollData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7F5F5BDF0B8109A4C9ADC5D13FBD45 /* EnrollData.swift */; };
+		EE1B32849BF1510493CEF05155DCEACA /* RequestOperations.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4D82732E61B054C3124B7F3C2B49CA /* RequestOperations.swift */; };
+		EEB2800AE6BFE9D55360685D40D8A377 /* RequestOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7442B50738569D227C7856E08BF73834 /* RequestOrder.swift */; };
+		EF41EEC3873747C8061172F82D082B57 /* RequestType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E375144B61C1BBABBD39311BB38D44 /* RequestType.swift */; };
+		EFA4CFA7E1E332453AEC8B5212CE9216 /* CardData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A69DDADEB1C6D460EE7DFA4E6A568A /* CardData.swift */; };
+		F9981F3F8CE1550CAC53C64EC442BCE3 /* Pods-Example3dsCocoa-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C9D0C8672692C892A7EF3B66106B74B /* Pods-Example3dsCocoa-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		CEB4841F3A931147A081E49E08A2DC4F /* PBXContainerItemProxy */ = {
+		8AEE6DB1E6FF66CEFFBA3D1E11DF8D83 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -84,7 +84,6 @@
 		2B9D458FF1EA5F07E7CBFCE640C67028 /* CallbackStatus.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CallbackStatus.swift; path = Braspag3dsSdk/Braspag3dsSdk/Domain/Data/CallbackStatus.swift; sourceTree = "<group>"; };
 		2CFC0AFF85CA643D6DF87B17B345C1C6 /* CartItemData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CartItemData.swift; path = Braspag3dsSdk/Braspag3dsSdk/Domain/Data/CartItemData.swift; sourceTree = "<group>"; };
 		2E758F249536644F28508B5CBB0FF420 /* Pods-Example3dsCocoa-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Example3dsCocoa-frameworks.sh"; sourceTree = "<group>"; };
-		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		33E4D671422D0F062D00C5DE43473B49 /* ShippingMethod.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ShippingMethod.swift; path = Braspag3dsSdk/Braspag3dsSdk/Domain/Data/ShippingMethod.swift; sourceTree = "<group>"; };
 		34CB1B49C75A937F796AD449855E8998 /* Passenger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Passenger.swift; path = Braspag3dsSdk/Braspag3dsSdk/Domain/Data/Passenger.swift; sourceTree = "<group>"; };
 		3901C1919B36A7B7470B174989EB4D2D /* ResponseOauthToken.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseOauthToken.swift; path = Braspag3dsSdk/Braspag3dsSdk/Domain/ApiDefaults/Responses/ResponseOauthToken.swift; sourceTree = "<group>"; };
@@ -102,9 +101,10 @@
 		5D2AFEB64CA584CAA8B392E5B1B77F52 /* Braspag3Ds-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Braspag3Ds-Info.plist"; sourceTree = "<group>"; };
 		5E5B6365A212644A16372B2592B07244 /* RequestValidate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestValidate.swift; path = Braspag3dsSdk/Braspag3dsSdk/Domain/ApiDefaults/Responses/RequestValidate.swift; sourceTree = "<group>"; };
 		62DB7979497DC8FCAB27E2A79885D1F4 /* Pods-Example3dsCocoa.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example3dsCocoa.debug.xcconfig"; sourceTree = "<group>"; };
-		64E097392C9BA3EBC48C70E404C9EB2A /* Braspag3Ds.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Braspag3Ds.framework; path = Braspag3Ds.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		64E097392C9BA3EBC48C70E404C9EB2A /* Braspag3Ds */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Braspag3Ds; path = Braspag3Ds.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		67E375144B61C1BBABBD39311BB38D44 /* RequestType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestType.swift; path = Braspag3dsSdk/Braspag3dsSdk/Networking/RequestType.swift; sourceTree = "<group>"; };
 		6F914610ECA8F5EF0346D897F1E36553 /* BraspagApiClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BraspagApiClient.swift; path = Braspag3dsSdk/Braspag3dsSdk/Domain/ApiDefaults/BraspagApiClient.swift; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7442B50738569D227C7856E08BF73834 /* RequestOrder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestOrder.swift; path = Braspag3dsSdk/Braspag3dsSdk/Domain/ApiDefaults/Requests/RequestOrder.swift; sourceTree = "<group>"; };
 		801A12350F546B2E81D776CDF751D431 /* CardinalMobile.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CardinalMobile.framework; path = Braspag3dsSdk/CardinalMobile.framework; sourceTree = "<group>"; };
 		89EE97A5B8FA5B8BB2EF898D9AC8B8EF /* BraspagApi.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BraspagApi.swift; path = Braspag3dsSdk/Braspag3dsSdk/Domain/ApiDefaults/BraspagApi.swift; sourceTree = "<group>"; };
@@ -124,7 +124,7 @@
 		B41B5DA4B64818A3604F3E69A1AC032A /* TransactionMode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransactionMode.swift; path = Braspag3dsSdk/Braspag3dsSdk/Domain/Data/TransactionMode.swift; sourceTree = "<group>"; };
 		BC4D82732E61B054C3124B7F3C2B49CA /* RequestOperations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestOperations.swift; path = Braspag3dsSdk/Braspag3dsSdk/Networking/RequestOperations.swift; sourceTree = "<group>"; };
 		BF6F39312D608C057EA44E5F51426C68 /* Pods-Example3dsCocoa-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Example3dsCocoa-dummy.m"; sourceTree = "<group>"; };
-		C2626513E4FC6C81A5DAFB5FE21BD22F /* Pods_Example3dsCocoa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Example3dsCocoa.framework; path = "Pods-Example3dsCocoa.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2626513E4FC6C81A5DAFB5FE21BD22F /* Pods-Example3dsCocoa */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Example3dsCocoa"; path = Pods_Example3dsCocoa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C56A50E626C27EA88D7592591D30F9E3 /* Api.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Api.swift; path = Braspag3dsSdk/Braspag3dsSdk/Networking/Api.swift; sourceTree = "<group>"; };
 		C71C320C2D742D53DA210DEA7AA64517 /* Pods-Example3dsCocoa.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example3dsCocoa.release.xcconfig"; sourceTree = "<group>"; };
 		C8BD2566741915CC69CEE5F183BA93BD /* RecurringData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RecurringData.swift; path = Braspag3dsSdk/Braspag3dsSdk/Domain/Data/RecurringData.swift; sourceTree = "<group>"; };
@@ -140,19 +140,19 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		13CE0401DA21C4D2AD75E2FFC597D6A5 /* Frameworks */ = {
+		46019AACCB59AEE11FE275B94764551F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6D2B079202BABE9F27A389CDA300C713 /* Foundation.framework in Frameworks */,
+				B90E2962F291319F2D583C0CDB080785 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3FA6DCB8854343C8BA5B975BB339A432 /* Frameworks */ = {
+		489EF4319E94F287DC1A8B2B0834B96A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DB0F3A58254AF42C9B7CFF44729CE31 /* Foundation.framework in Frameworks */,
+				8BEB7FD95DD71764F033CBBD91EF01B1 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,13 +167,12 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		6010FAF83B4E74963B9857B67A14CD73 /* Products */ = {
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				64E097392C9BA3EBC48C70E404C9EB2A /* Braspag3Ds.framework */,
-				C2626513E4FC6C81A5DAFB5FE21BD22F /* Pods_Example3dsCocoa.framework */,
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
 			);
-			name = Products;
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		654D67A0BEDD3A4CE883A2E743D7AA1B /* Pods */ = {
@@ -271,21 +270,13 @@
 			path = "Target Support Files/Pods-Example3dsCocoa";
 			sourceTree = "<group>";
 		};
-		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				654D67A0BEDD3A4CE883A2E743D7AA1B /* Pods */,
-				6010FAF83B4E74963B9857B67A14CD73 /* Products */,
+				DD7A6C3AA0BEF5E672FE91EA05B453B4 /* Products */,
 				3DB876C1ABE77FC67D4A7E6F351F6BF8 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -293,7 +284,7 @@
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -306,23 +297,32 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		DD7A6C3AA0BEF5E672FE91EA05B453B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				64E097392C9BA3EBC48C70E404C9EB2A /* Braspag3Ds */,
+				C2626513E4FC6C81A5DAFB5FE21BD22F /* Pods-Example3dsCocoa */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		03B07458111577F893F1993413BDEAEA /* Headers */ = {
+		34A411ED07AD11EF5F39B0E8C41F8EBA /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D192D37E9BD47B69E2A86653CEF44F49 /* Braspag3Ds-umbrella.h in Headers */,
-				EAEC6D1650665482CB8B3926CED18B1D /* Braspag3dsSdk.h in Headers */,
+				F9981F3F8CE1550CAC53C64EC442BCE3 /* Pods-Example3dsCocoa-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		149D6E4EB2BD508FED67C96291DADFC7 /* Headers */ = {
+		A78916E1C98948EB4A826D3C7776FCFE /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2B7ECFE188897FDCFE8FBFDED73CEF2F /* Pods-Example3dsCocoa-umbrella.h in Headers */,
+				295B95CA9FE4E3E5F2325F1605DF5B59 /* Braspag3Ds-umbrella.h in Headers */,
+				4E75AB2F45C35A220A5CA5D86BCB8188 /* Braspag3dsSdk.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -331,12 +331,12 @@
 /* Begin PBXNativeTarget section */
 		55D410B21DC84B97A82F49A9475B7E5B /* Braspag3Ds */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 812B425F75B6F593D0F0E614B073B0A5 /* Build configuration list for PBXNativeTarget "Braspag3Ds" */;
+			buildConfigurationList = 3615B9D639D290D570303B36D162B30E /* Build configuration list for PBXNativeTarget "Braspag3Ds" */;
 			buildPhases = (
-				03B07458111577F893F1993413BDEAEA /* Headers */,
-				769BEE8B68C98EB959D93D6EF8D60E13 /* Sources */,
-				3FA6DCB8854343C8BA5B975BB339A432 /* Frameworks */,
-				1DD1AF512A6C7CC6C2EB063909E54BA4 /* Resources */,
+				A78916E1C98948EB4A826D3C7776FCFE /* Headers */,
+				80BF8836D2CB5A86FEA1173F98EC8B60 /* Sources */,
+				489EF4319E94F287DC1A8B2B0834B96A /* Frameworks */,
+				4F32C84D3BD9303A9F1B6E947F09C8F3 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -344,26 +344,26 @@
 			);
 			name = Braspag3Ds;
 			productName = Braspag3Ds;
-			productReference = 64E097392C9BA3EBC48C70E404C9EB2A /* Braspag3Ds.framework */;
+			productReference = 64E097392C9BA3EBC48C70E404C9EB2A /* Braspag3Ds */;
 			productType = "com.apple.product-type.framework";
 		};
 		E5B5935BA07EF3CF670939534F775470 /* Pods-Example3dsCocoa */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 60DC89CCFD297810A36C5E18CA16D399 /* Build configuration list for PBXNativeTarget "Pods-Example3dsCocoa" */;
+			buildConfigurationList = 715E051E1596B0E8BDB9BC43AD77CC6A /* Build configuration list for PBXNativeTarget "Pods-Example3dsCocoa" */;
 			buildPhases = (
-				149D6E4EB2BD508FED67C96291DADFC7 /* Headers */,
-				6B7354BA5A6B52371E1C1E8E63872316 /* Sources */,
-				13CE0401DA21C4D2AD75E2FFC597D6A5 /* Frameworks */,
-				E3141A0998281F60C7F1F6A68848D1FE /* Resources */,
+				34A411ED07AD11EF5F39B0E8C41F8EBA /* Headers */,
+				19A6D07B09B998568BF479D1AFFF71A2 /* Sources */,
+				46019AACCB59AEE11FE275B94764551F /* Frameworks */,
+				53FFF161B94043A9EAA39F44E5CCA5EC /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				CD92B1F65C1D70A453E6CEB6EC250511 /* PBXTargetDependency */,
+				9DBB20BFB71849BB4E8CD4E63A2DD564 /* PBXTargetDependency */,
 			);
 			name = "Pods-Example3dsCocoa";
-			productName = "Pods-Example3dsCocoa";
-			productReference = C2626513E4FC6C81A5DAFB5FE21BD22F /* Pods_Example3dsCocoa.framework */;
+			productName = Pods_Example3dsCocoa;
+			productReference = C2626513E4FC6C81A5DAFB5FE21BD22F /* Pods-Example3dsCocoa */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -372,19 +372,19 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1100;
-				LastUpgradeCheck = 1100;
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
 				Base,
+				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 6010FAF83B4E74963B9857B67A14CD73 /* Products */;
+			productRefGroup = DD7A6C3AA0BEF5E672FE91EA05B453B4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -395,14 +395,14 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1DD1AF512A6C7CC6C2EB063909E54BA4 /* Resources */ = {
+		4F32C84D3BD9303A9F1B6E947F09C8F3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E3141A0998281F60C7F1F6A68848D1FE /* Resources */ = {
+		53FFF161B94043A9EAA39F44E5CCA5EC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -412,142 +412,154 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		6B7354BA5A6B52371E1C1E8E63872316 /* Sources */ = {
+		19A6D07B09B998568BF479D1AFFF71A2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				21B8C0158828E7D9474BB38CAA9CA2A6 /* Pods-Example3dsCocoa-dummy.m in Sources */,
+				8B8B003C7850AF56860FB34E47DE87AE /* Pods-Example3dsCocoa-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		769BEE8B68C98EB959D93D6EF8D60E13 /* Sources */ = {
+		80BF8836D2CB5A86FEA1173F98EC8B60 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8CAA321D63FC6B07CF0458895C5A1D1A /* AirlineData.swift in Sources */,
-				8BB07E2B3213F030365D6CB2A6B9F9D7 /* Api.swift in Sources */,
-				AE7DFB454AD3B5D80CE509F57DFC94C2 /* AuthenticationMethod.swift in Sources */,
-				2C7BDF9174B14B69655F7F2BD9EBD8F4 /* AuthenticationResponse.swift in Sources */,
-				6B6ACC686F9E48859951715F30CE53BF /* AuthenticationStatus.swift in Sources */,
-				F61EC57DBDD726340851E3C555EDB051 /* BasicToken.swift in Sources */,
-				B03EB95B1ACFC875076D3162D2AE49F4 /* BillToData.swift in Sources */,
-				5B5462E41E978D15978E649CE48DC8BC /* Braspag3Ds-dummy.m in Sources */,
-				066F250D80867D2ED9705D1A1B21E806 /* Braspag3ds.swift in Sources */,
-				4AA1FA4329AA20E432725B7D2BEE3F70 /* BraspagApi.swift in Sources */,
-				89BA53165259B2E83850B8FEAA2D1A0B /* BraspagApiClient.swift in Sources */,
-				A4BB96B8D0B696FD6A42B08522D86042 /* BraspagCustomUI.swift in Sources */,
-				AE5516BB5586CB5180DC9CD03421C5D9 /* CallbackStatus.swift in Sources */,
-				30B63910D208EA23103842C230B4D7AF /* CardData.swift in Sources */,
-				18BDA5283A077FE5B3375E864F2AB69B /* CartItemData.swift in Sources */,
-				339F04A5F5236555FF0481786F161D5A /* DecodableExtensions.swift in Sources */,
-				994B0773CE6F928092AC2ABEC773285B /* DeviceData.swift in Sources */,
-				28D6E1BD7290241FFEDBDD616D854CDF /* EncodableExtensions.swift in Sources */,
-				8BEF96531DD3ADE3428923C989156709 /* EnrollAuthentication.swift in Sources */,
-				002956E250B27DD8DB62EB0C96422586 /* EnrollData.swift in Sources */,
-				2F8C80EAF2E36D6B65D4756C78C3160F /* EnrollStatus.swift in Sources */,
-				73E32F8AC2D1DF9DBC83CE0D79D94BCC /* Environment.swift in Sources */,
-				36C3ECA279606779A85423BAB334BBF7 /* MddData.swift in Sources */,
-				4C271BC257A04AEFF5BDA18EE7AF63A1 /* MerchantInfo.swift in Sources */,
-				4EC66AAA8C0CF6BD2C82F360AE3E83E7 /* OptionsData.swift in Sources */,
-				F6E740CD53E53C5C5E7DE11066B0BA91 /* OrderData.swift in Sources */,
-				7926DE2B853D2B840624DCD7C220B33E /* Passenger.swift in Sources */,
-				D110B8797111E114C5B03CC0333D5338 /* PaymentMethod.swift in Sources */,
-				B5F764065CAA19278A8BCB15C52F5EF7 /* ProductCode.swift in Sources */,
-				C42F869FB30EC56A22C8FDE8E355BEE5 /* RecurringData.swift in Sources */,
-				8E1A6761C6F9AD3504380AF2B46DC193 /* RecurringFrequency.swift in Sources */,
-				39818B5BBC676A1D5E227040B82B2C91 /* RequestOauth.swift in Sources */,
-				97FB0BEF42A7B0FC3AC5DC7D9A8B6ABC /* RequestOperations.swift in Sources */,
-				76F3EB33DE7529779A36D341B658327A /* RequestOrder.swift in Sources */,
-				343CF1FB5320538CBC5A1CD3B928B104 /* RequestType.swift in Sources */,
-				E8D964BAABC7EC2334A53C9405B6B334 /* RequestValidate.swift in Sources */,
-				92C711848802F16051912A1014EA1D81 /* ResponseEnroll.swift in Sources */,
-				A7C81C6C73BAB6E92DD0B459BF7FCB1F /* ResponseJwt.swift in Sources */,
-				9D4402B305D2BF8A256E195CD16CBA90 /* ResponseOauthToken.swift in Sources */,
-				A532AA5B215493ECD91989921F0008C5 /* ResponseValidate.swift in Sources */,
-				155DE1280E1CC573C6415ECE001F4695 /* ShippingMethod.swift in Sources */,
-				6BF48BAFD1D7524B511096B3500C660C /* ShipToData.swift in Sources */,
-				899F457AE07FBFCE66237442253D7D22 /* TransactionMode.swift in Sources */,
-				8B234D99E952EB24C0941D1BC058340D /* TravelLeg.swift in Sources */,
-				B2E31D66D9A228A88C0E6680A60E29CC /* UserData.swift in Sources */,
+				7E87E0A1F6A0FB05F1ED3598D9D46FF7 /* AirlineData.swift in Sources */,
+				CCC3C74AD3662B67E860DC8339D9C9B6 /* Api.swift in Sources */,
+				5284D4D8B34DA741568434E5F0D96EA3 /* AuthenticationMethod.swift in Sources */,
+				C7AC280ECA3FF0E402B2E20137647328 /* AuthenticationResponse.swift in Sources */,
+				CCD77DF44C6D2C84CD482D75034DC8BA /* AuthenticationStatus.swift in Sources */,
+				01F51AD223D060224A19E9BB7BC1A9CA /* BasicToken.swift in Sources */,
+				AE62F2DEE13764FD243DDD5989FF4C12 /* BillToData.swift in Sources */,
+				4AF693259A507B3C7EFFB0CEC35A88F2 /* Braspag3ds.swift in Sources */,
+				A3BAAA1037642EE86C0242822293CB8A /* Braspag3Ds-dummy.m in Sources */,
+				9FCDDF569AF7031D81A0B136CA8EAABB /* BraspagApi.swift in Sources */,
+				93B877A90E22A7946AEDAA6224530E57 /* BraspagApiClient.swift in Sources */,
+				7536336300B20E2B5258A8EF9F9B76A1 /* BraspagCustomUI.swift in Sources */,
+				5FDE0892CC67BF1E4ACF5E501EDBD2F3 /* CallbackStatus.swift in Sources */,
+				EFA4CFA7E1E332453AEC8B5212CE9216 /* CardData.swift in Sources */,
+				BEDA52CBC9D0590FD4257409677953A9 /* CartItemData.swift in Sources */,
+				ADAE1AE7AE42DF34081AFAA5EA4AD331 /* DecodableExtensions.swift in Sources */,
+				6661BC1D9BE86FD9A904647696C0436F /* DeviceData.swift in Sources */,
+				8D3C0B677FE46A38CB33081A9A4B41CA /* EncodableExtensions.swift in Sources */,
+				B65B0BA96E790D72BA9F79C8A235189F /* EnrollAuthentication.swift in Sources */,
+				ED6F47B560AB93C5B51401A1051BD7CE /* EnrollData.swift in Sources */,
+				24CEDD9BBA8107332827F441D97FBDA6 /* EnrollStatus.swift in Sources */,
+				3FBABAD8F939147A871A319211C8EBC5 /* Environment.swift in Sources */,
+				E28E79B4A28C2FA8A9C683AF89A29E3F /* MddData.swift in Sources */,
+				D8C6539ED60A371840C0672255ED5092 /* MerchantInfo.swift in Sources */,
+				8E97CEBD1CDB340F80BAFF5C8F185F39 /* OptionsData.swift in Sources */,
+				81F0194F2941725EA7868F0B6DF23BC1 /* OrderData.swift in Sources */,
+				0A7224D405DDD41DF985E75554271BE1 /* Passenger.swift in Sources */,
+				36FA66D4FF63DB1C5A12988A3624C372 /* PaymentMethod.swift in Sources */,
+				0F5BA32A2AE44BAA7E61E319E38B8AC7 /* ProductCode.swift in Sources */,
+				8950FE795A777A956D04AE7B3D6D5D96 /* RecurringData.swift in Sources */,
+				DB687E72779872BE16E60D834874634E /* RecurringFrequency.swift in Sources */,
+				54EFD400BA07AE9232FB2FB89B2BF411 /* RequestOauth.swift in Sources */,
+				EE1B32849BF1510493CEF05155DCEACA /* RequestOperations.swift in Sources */,
+				EEB2800AE6BFE9D55360685D40D8A377 /* RequestOrder.swift in Sources */,
+				EF41EEC3873747C8061172F82D082B57 /* RequestType.swift in Sources */,
+				72AA78B949F029B0CCF1980959476F37 /* RequestValidate.swift in Sources */,
+				1D0BC957CF4E4846D45003B3E3D1B87B /* ResponseEnroll.swift in Sources */,
+				CABCBCC2E9EBB9A0888F7BCA5BFF7E1D /* ResponseJwt.swift in Sources */,
+				8E03B249AC9AE0B4B39AD1323E9FC66C /* ResponseOauthToken.swift in Sources */,
+				E380E9899E552AE059F54F7DC73C850E /* ResponseValidate.swift in Sources */,
+				0F74F091A94D6B739CB907AC6EFB8A4A /* ShippingMethod.swift in Sources */,
+				5583724ACC42F54BAF8A548C39812D59 /* ShipToData.swift in Sources */,
+				678E7C403D3896C2C539FE42FB32BC23 /* TransactionMode.swift in Sources */,
+				5235C4C5227388ED736E45C72D4C647A /* TravelLeg.swift in Sources */,
+				DFBABEA3C428B1B05F2C87442215FA60 /* UserData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		CD92B1F65C1D70A453E6CEB6EC250511 /* PBXTargetDependency */ = {
+		9DBB20BFB71849BB4E8CD4E63A2DD564 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Braspag3Ds;
 			target = 55D410B21DC84B97A82F49A9475B7E5B /* Braspag3Ds */;
-			targetProxy = CEB4841F3A931147A081E49E08A2DC4F /* PBXContainerItemProxy */;
+			targetProxy = 8AEE6DB1E6FF66CEFFBA3D1E11DF8D83 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
+		15E9ED39135ABEA82C23CC5319D4768A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D46314D4FECDA1893CDBEFE5E1F7E5B /* Braspag3Ds.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Braspag3Ds/Braspag3Ds-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Braspag3Ds/Braspag3Ds-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Braspag3Ds/Braspag3Ds.modulemap";
+				PRODUCT_MODULE_NAME = Braspag3Ds;
+				PRODUCT_NAME = Braspag3Ds;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 5.0;
-				SYMROOT = "${SRCROOT}/../build";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		916E0404255105F480DC4950B7625F7A /* Debug */ = {
+		226F959CAA0014FD77F9DDA0DB41F4CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62DB7979497DC8FCAB27E2A79885D1F4 /* Pods-Example3dsCocoa.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Example3dsCocoa/Pods-Example3dsCocoa-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Example3dsCocoa/Pods-Example3dsCocoa.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -570,6 +582,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -608,11 +621,10 @@
 			};
 			name = Debug;
 		};
-		A4A546A20AD582624D2DC75AFD2B8E7C /* Release */ = {
+		85B4EF4965E44D6F4C299D6785606B64 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1D46314D4FECDA1893CDBEFE5E1F7E5B /* Braspag3Ds.release.xcconfig */;
+			baseConfigurationReference = 96EA5CF0625AFC359315A5EBF9E831A6 /* Braspag3Ds.debug.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -638,55 +650,16 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		A6D2BA405F165EB6F6F4FE395E01BB90 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 62DB7979497DC8FCAB27E2A79885D1F4 /* Pods-Example3dsCocoa.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Example3dsCocoa/Pods-Example3dsCocoa-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Example3dsCocoa/Pods-Example3dsCocoa.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		AF52060E88AFC59A667994DF10F7F1D2 /* Release */ = {
+		957C71A5D574B1FED52E45ED5A05F580 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C71C320C2D742D53DA210DEA7AA64517 /* Pods-Example3dsCocoa.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -719,67 +692,94 @@
 			};
 			name = Release;
 		};
-		F94E765B2BBF47BA092C76E0DFCA1DDF /* Debug */ = {
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 96EA5CF0625AFC359315A5EBF9E831A6 /* Braspag3Ds.debug.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Braspag3Ds/Braspag3Ds-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Braspag3Ds/Braspag3Ds-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
 					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
 				);
-				MODULEMAP_FILE = "Target Support Files/Braspag3Ds/Braspag3Ds.modulemap";
-				PRODUCT_MODULE_NAME = Braspag3Ds;
-				PRODUCT_NAME = Braspag3Ds;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				SYMROOT = "${SRCROOT}/../build";
 			};
-			name = Debug;
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		3615B9D639D290D570303B36D162B30E /* Build configuration list for PBXNativeTarget "Braspag3Ds" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85B4EF4965E44D6F4C299D6785606B64 /* Debug */,
+				15E9ED39135ABEA82C23CC5319D4768A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				916E0404255105F480DC4950B7625F7A /* Debug */,
-				8F17DC3A99F99FBAD606CE6963886315 /* Release */,
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		60DC89CCFD297810A36C5E18CA16D399 /* Build configuration list for PBXNativeTarget "Pods-Example3dsCocoa" */ = {
+		715E051E1596B0E8BDB9BC43AD77CC6A /* Build configuration list for PBXNativeTarget "Pods-Example3dsCocoa" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A6D2BA405F165EB6F6F4FE395E01BB90 /* Debug */,
-				AF52060E88AFC59A667994DF10F7F1D2 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		812B425F75B6F593D0F0E614B073B0A5 /* Build configuration list for PBXNativeTarget "Braspag3Ds" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F94E765B2BBF47BA092C76E0DFCA1DDF /* Debug */,
-				A4A546A20AD582624D2DC75AFD2B8E7C /* Release */,
+				226F959CAA0014FD77F9DDA0DB41F4CF /* Debug */,
+				957C71A5D574B1FED52E45ED5A05F580 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

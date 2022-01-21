@@ -26,7 +26,7 @@ public class BillToData: Encodable {
                 city: String,
                 state: String,
                 zipCode: String,
-                country: String = "BR",
+                country: String,
                 customerId: String? = nil) {
         
         self.customerId = customerId

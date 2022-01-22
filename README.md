@@ -18,7 +18,7 @@ pod 'Braspag3Ds'
 
 
 // Swift 4+
-pod 'Braspag3DS', :git => 'https://github.com/DeveloperCielo/3ds-ios.git', :tag => '1.0.14'
+pod 'Braspag3Ds', :git => 'https://github.com/DeveloperCielo/3ds-ios.git', :tag => '1.0.14'
 ```
 > Na tag você pode adicionar o número da versão que melhor se adequa ao seu projeto, conforme descrito na seção **Versões** acima.
 

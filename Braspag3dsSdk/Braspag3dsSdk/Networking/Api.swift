@@ -40,10 +40,12 @@ class Api: ApiProtocol {
         case .DELETE: break
         }
         
+      let sdkName = "3ds-iOS"
+      let versionNumber = "1.0.15"
         let credentials = parameters?["credentials"]
         urlRequest?.allHTTPHeaderFields = [
             "Authorization": "Basic \(credentials ?? "")",
-            "x-sdk-version": "3ds-iOS@1.0.15"
+            "x-sdk-version": "\(sdkName)@\(versionNumber)"
         ]
         
         if let myRequest = urlRequest {

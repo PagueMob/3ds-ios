@@ -1,16 +1,22 @@
 PODS:
-  - Braspag3Ds (1.0.13)
+  - Braspag3Ds (1.0.15)
 
 DEPENDENCIES:
-  - Braspag3Ds
+  - Braspag3Ds (from `https://github.com/DeveloperCielo/3ds-ios.git`, tag `1.0.15`)
 
-SPEC REPOS:
-  trunk:
-    - Braspag3Ds
+EXTERNAL SOURCES:
+  Braspag3Ds:
+    :git: https://github.com/DeveloperCielo/3ds-ios.git
+    :tag: 1.0.15
+
+CHECKOUT OPTIONS:
+  Braspag3Ds:
+    :git: https://github.com/DeveloperCielo/3ds-ios.git
+    :tag: 1.0.15
 
 SPEC CHECKSUMS:
-  Braspag3Ds: af1d012a64ae4885e3a18362dfe981445a340312
+  Braspag3Ds: 44247fae0e0897d2d60ae5b928bfab479bfb0258
 
-PODFILE CHECKSUM: d0ccdd0d47c64366fc55b8435a0d80ff4560b771
+PODFILE CHECKSUM: 7c498298a23cc5a4e49c60dad327fae481c1be37
 
-COCOAPODS: 1.11.0
+COCOAPODS: 1.11.2

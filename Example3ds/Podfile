@@ -5,6 +5,7 @@ target 'Example3dsCocoa' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
-  pod 'Braspag3Ds'
+#  pod 'Braspag3Ds'
+pod 'Braspag3Ds', :git => 'https://github.com/DeveloperCielo/3ds-ios.git', :tag => '1.0.15'
 
 end

@@ -6,7 +6,7 @@
 //  Copyright © 2019 jnazario.com. All rights reserved.
 //
 
-public class DeviceData: Codable {
+public class DeviceData: SdkObject, Codable {
     var fingerPrint, provider: String
     
     public init(fingerPrint: String, provider: String) {

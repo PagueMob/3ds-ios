@@ -80,34 +80,36 @@ public class Braspag3ds: Braspag3dsProtocol {
         
         onCompletion = completion
         
-        self.braspagInitJwt(orderData.orderNumber,
+        let myself = self;
+        
+        myself.braspagInitJwt(orderData.orderNumber,
                             orderData.currencyCode,
                             orderData.totalAmount,
                             completion: {[weak self] (success, error) in
             guard success else {
-                self?.onCompletion(CallbackStatus.error, nil, "/init failed: \(error ?? "")")
+                myself.onCompletion(CallbackStatus.error, nil, "/init failed: \(error ?? "")")
                 return
             }
             
-            self?.sessionSetup(cardData.number, completion: {[weak self] (success) in
+            myself.sessionSetup(cardData.number, completion: {[weak self] (success) in
                 guard success else {
-                    self?.onCompletion(CallbackStatus.error, nil, "session setup failed")
+                    myself.onCompletion(CallbackStatus.error, nil, "session setup failed")
                     return
                 }
                 
-                guard let enroll = self?.enrollData else {
-                    self?.onCompletion(CallbackStatus.error, nil, "enroll data is nil")
+                guard let enroll = myself.enrollData else {
+                    myself.onCompletion(CallbackStatus.error, nil, "enroll data is nil")
                     return
                 }
                 
-                self?.braspagEnroll(enroll, completion: {[weak self] status, authentication, error  in
-                    guard let strongSelf = self, error == nil else {
+                myself.braspagEnroll(enroll, completion: {[weak self] status, authentication, error  in
+                    guard error == nil else {
                         let auth = authentication != nil ? authentication?.toAuthResponse() : nil
-                        self?.onCompletion(CallbackStatus.error, auth, error)
+                        myself.onCompletion(CallbackStatus.error, auth, error)
                         return
                     }
                     
-                    strongSelf.processEnroll(status, strongSelf, authentication)
+                    myself.processEnroll(status, myself, authentication)
                 })
             })
         })
